@@ -1,0 +1,23 @@
+---
+// Wrapper de seção com título padronizado e espaçamento consistente.
+
+interface Props {
+  title: string;
+  id?: string;
+  class?: string;
+}
+
+const { title, id, class: extraClass = '' } = Astro.props;
+---
+
+<section id={id} class={`scroll-mt-24 ${extraClass}`}>
+  <div class="mb-6 flex items-center gap-4">
+    <h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
+      {title}
+    </h2>
+    <!-- Linha decorativa com a cor primária -->
+    <div class="h-px flex-1 bg-gradient-to-r from-emerald-500/60 to-transparent dark:from-emerald-400/40"></div>
+  </div>
+
+  <slot />
+</section>

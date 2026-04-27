@@ -1,0 +1,31 @@
+---
+// Componente base de card glassmorphism.
+// Todos os outros cards do site herdam deste componente.
+
+interface Props {
+  class?: string;
+  /** Se true, adiciona hover lift com transformação */
+  hoverable?: boolean;
+  /** Tag HTML a usar como container */
+  as?: 'div' | 'article' | 'section' | 'li';
+  id?: string;
+}
+
+const {
+  class: extraClass = '',
+  hoverable = false,
+  as: Tag = 'div',
+  id,
+} = Astro.props;
+
+const hoverClasses = hoverable
+  ? 'transition-transform duration-300 hover:-translate-y-1 hover:shadow-[0_16px_48px_rgba(0,0,0,0.12)] dark:hover:shadow-[0_16px_48px_rgba(0,0,0,0.5)]'
+  : '';
+---
+
+<Tag
+  id={id}
+  class={`glass rounded-2xl p-6 ${hoverClasses} ${extraClass}`}
+>
+  <slot />
+</Tag>

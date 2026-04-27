@@ -1,0 +1,64 @@
+---
+import GlassCard from '@/components/ui/GlassCard.astro';
+import Tag from '@/components/ui/Tag.astro';
+import { formatDate, localePath, readingTime } from '@/i18n/utils';
+import { t, type Locale } from '@/i18n/ui';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  article: CollectionEntry<'articles'>;
+  locale: Locale;
+}
+
+const { article, locale } = Astro.props;
+const { data } = article;
+const slug = locale === 'pt-br' ? `/artigos/${data.id}` : `/articles/${data.id}`;
+const href = localePath(locale, slug);
+
+// Estima leitura a partir do body
+const minutes = readingTime(article.body ?? '');
+---
+
+<GlassCard as="article" hoverable class="flex flex-col gap-3">
+  <!-- Data e tempo de leitura -->
+  <div class="flex items-center gap-3 text-xs text-slate-500 dark:text-slate-400">
+    <time datetime={data.publishedAt.toISOString()}>
+      {formatDate(data.publishedAt, locale)}
+    </time>
+    <span aria-hidden="true">·</span>
+    <span>{minutes} {t(locale, 'articles.minutes')}</span>
+  </div>
+
+  <!-- Título -->
+  <h2 class="text-lg font-semibold leading-snug text-slate-900 dark:text-slate-100">
+    <a
+      href={href}
+      class="hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+    >
+      {data.title}
+    </a>
+  </h2>
+
+  <!-- Descrição -->
+  <p class="text-sm leading-relaxed text-slate-600 dark:text-slate-400">
+    {data.description}
+  </p>
+
+  <!-- Tags e link -->
+  <div class="mt-auto flex items-end justify-between gap-3 pt-2">
+    <div class="flex flex-wrap gap-1.5">
+      {data.tags.map((tag) => (
+        <Tag variant="slate">{tag}</Tag>
+      ))}
+    </div>
+
+    <a
+      href={href}
+      class="shrink-0 text-sm font-medium text-emerald-600 dark:text-emerald-400
+             hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors"
+      aria-label={`${t(locale, 'articles.readMore')}: ${data.title}`}
+    >
+      {t(locale, 'articles.readMore')} →
+    </a>
+  </div>
+</GlassCard>

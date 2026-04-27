@@ -1,0 +1,52 @@
+---
+import ContentLayout from '@/layouts/ContentLayout.astro';
+import ArticleCard from '@/components/content/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+import { render } from 'astro:content';
+import { t, type Locale } from '@/i18n/ui';
+import { readingTime } from '@/i18n/utils';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles', (e) => e.data.locale === 'en-us' && !e.data.draft);
+  return articles.map((article) => ({
+    params: { slug: article.data.id },
+    props: { article },
+  }));
+}
+
+const locale: Locale = 'en-us';
+const { article } = Astro.props;
+const { Content } = await render(article);
+const minutes = readingTime(article.body ?? '');
+
+const allArticles = await getCollection('articles', (e) => e.data.locale === locale && !e.data.draft);
+const related = article.data.relatedIds.length > 0
+  ? allArticles.filter((a) => article.data.relatedIds.includes(a.data.id))
+  : [];
+---
+
+<ContentLayout
+  title={article.data.title}
+  description={article.data.description}
+  locale={locale}
+  publishedAt={article.data.publishedAt}
+  updatedAt={article.data.updatedAt}
+  tags={article.data.tags}
+  backHref="/en-us/articles"
+  backLabel={t(locale, 'articles.back')}
+>
+  <Content />
+
+  {related.length > 0 && (
+    <section class="mt-16">
+      <h2 class="mb-6 text-xl font-semibold text-slate-900 dark:text-slate-100">
+        {t(locale, 'articles.related')}
+      </h2>
+      <div class="grid gap-4 sm:grid-cols-2">
+        {related.map((rel) => (
+          <ArticleCard article={rel} locale={locale} />
+        ))}
+      </div>
+    </section>
+  )}
+</ContentLayout>

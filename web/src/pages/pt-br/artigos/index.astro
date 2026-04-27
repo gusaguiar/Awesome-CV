@@ -1,0 +1,60 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import ArticleCard from '@/components/content/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+import { t } from '@/i18n/ui';
+
+const locale = 'pt-br' as const;
+
+// Busca artigos PT-BR, exclui rascunhos e ordena por data decrescente
+const articles = (await getCollection('articles', (entry) =>
+  entry.data.locale === 'pt-br' && !entry.data.draft
+)).sort((a, b) => b.data.publishedAt.valueOf() - a.data.publishedAt.valueOf());
+
+// Coleta todas as tags únicas para filtro futuro
+const allTags = [...new Set(articles.flatMap((a) => a.data.tags))].sort();
+---
+
+<BaseLayout
+  title={t(locale, 'articles.title')}
+  description={t(locale, 'articles.description')}
+  locale={locale}
+>
+  <!-- Cabeçalho da seção -->
+  <div class="mb-10">
+    <h1 class="mb-2 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
+      {t(locale, 'articles.title')}
+    </h1>
+    <p class="text-slate-600 dark:text-slate-400">
+      {t(locale, 'articles.description')}
+    </p>
+  </div>
+
+  <!-- Lista de tags para filtragem visual -->
+  {allTags.length > 0 && (
+    <div class="mb-8 flex flex-wrap gap-2">
+      {allTags.map((tag) => (
+        <span class="rounded-full border border-slate-200/60 bg-white/50 px-3 py-1 text-xs text-slate-600
+                     dark:border-slate-700/60 dark:bg-slate-800/40 dark:text-slate-400">
+          {tag}
+        </span>
+      ))}
+    </div>
+  )}
+
+  <!-- Grade de artigos -->
+  {articles.length > 0
+    ? (
+      <div class="grid gap-4 sm:grid-cols-2">
+        {articles.map((article) => (
+          <ArticleCard article={article} locale={locale} />
+        ))}
+      </div>
+    )
+    : (
+      <p class="text-center text-slate-500 dark:text-slate-400 py-16">
+        {t(locale, 'articles.empty')}
+      </p>
+    )
+  }
+</BaseLayout>

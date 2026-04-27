@@ -1,0 +1,50 @@
+---
+import Section from '@/components/ui/Section.astro';
+import GlassCard from '@/components/ui/GlassCard.astro';
+import { t, type Locale } from '@/i18n/ui';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  resume: CollectionEntry<'resume'>['data'];
+  locale: Locale;
+}
+
+const { resume, locale } = Astro.props;
+---
+
+<Section title={t(locale, 'section.honors')} id="premios">
+  <GlassCard>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="border-b border-slate-200/60 dark:border-slate-700/60">
+            <th class="pb-2 text-left text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400">
+              {locale === 'pt-br' ? 'Reconhecimento' : 'Award'}
+            </th>
+            <th class="pb-2 text-left text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400">
+              {locale === 'pt-br' ? 'Instituição' : 'Institution'}
+            </th>
+            <th class="pb-2 text-right text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400 hidden sm:table-cell">
+              {locale === 'pt-br' ? 'Local' : 'Location'}
+            </th>
+            <th class="pb-2 text-right text-xs font-semibold uppercase tracking-widest text-slate-500 dark:text-slate-400">
+              {locale === 'pt-br' ? 'Ano' : 'Year'}
+            </th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-100/60 dark:divide-slate-800/60">
+          {resume.honors.map((honor) => (
+            <tr id={honor.id} class="group">
+              <td class="py-2.5 pr-4 font-medium text-slate-800 dark:text-slate-200 group-hover:text-emerald-700 dark:group-hover:text-emerald-300 transition-colors">
+                {honor.position}
+              </td>
+              <td class="py-2.5 pr-4 text-slate-600 dark:text-slate-400">{honor.title}</td>
+              <td class="py-2.5 pr-4 text-slate-500 dark:text-slate-500 text-right hidden sm:table-cell">{honor.location}</td>
+              <td class="py-2.5 text-right font-mono text-xs text-slate-400 dark:text-slate-500 whitespace-nowrap">{honor.date}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </GlassCard>
+</Section>

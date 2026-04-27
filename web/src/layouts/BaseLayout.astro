@@ -1,0 +1,93 @@
+---
+import '@/styles/global.css';
+import Header from '@/components/layout/Header.astro';
+import Footer from '@/components/layout/Footer.astro';
+import BackgroundBlobs from '@/components/ui/BackgroundBlobs.astro';
+import { type Locale } from '@/i18n/ui';
+
+interface Props {
+  title: string;
+  description: string;
+  locale: Locale;
+  /** URL canônica absoluta para esta página */
+  canonicalUrl?: string;
+  /** Imagem Open Graph (URL absoluta) */
+  ogImage?: string;
+}
+
+const {
+  title,
+  description,
+  locale,
+  canonicalUrl = Astro.url.href,
+  ogImage = '/og-image.png',
+} = Astro.props;
+
+const currentPath = Astro.url.pathname;
+const langTag = locale === 'pt-br' ? 'pt-BR' : 'en-US';
+const fullTitle = `${title} | Gustavo Aguiar`;
+---
+
+<!doctype html>
+<html lang={langTag} class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+
+    <!-- Metadados básicos -->
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <meta name="author" content="Gustavo Aguiar" />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:locale" content={langTag.replace('-', '_')} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Fontes: Source Sans 3 + Roboto via Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--
+      Script anti-FOUC: aplica o tema ANTES da primeira renderização
+      para evitar piscada ao usar preferência salva ou preferência do sistema.
+    -->
+    <script is:inline>
+      (function () {
+        const stored = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (stored === 'dark' || (!stored && prefersDark)) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+
+  <body class="min-h-screen font-sans text-slate-800 dark:text-slate-200 antialiased">
+    <BackgroundBlobs />
+
+    <Header locale={locale} currentPath={currentPath} />
+
+    <main class="mx-auto max-w-5xl px-4 py-12">
+      <slot />
+    </main>
+
+    <Footer locale={locale} />
+  </body>
+</html>

@@ -1,0 +1,46 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import ProjectCard from '@/components/content/ProjectCard.astro';
+import { getCollection } from 'astro:content';
+import { t } from '@/i18n/ui';
+
+const locale = 'en-us' as const;
+
+const projects = (await getCollection('projects', (entry) =>
+  entry.data.locale === 'en-us'
+)).sort((a, b) => {
+  if (a.data.featured && !b.data.featured) return -1;
+  if (!a.data.featured && b.data.featured) return 1;
+  return 0;
+});
+---
+
+<BaseLayout
+  title={t(locale, 'projects.title')}
+  description={t(locale, 'projects.description')}
+  locale={locale}
+>
+  <div class="mb-10">
+    <h1 class="mb-2 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">
+      {t(locale, 'projects.title')}
+    </h1>
+    <p class="text-slate-600 dark:text-slate-400">
+      {t(locale, 'projects.description')}
+    </p>
+  </div>
+
+  {projects.length > 0
+    ? (
+      <div class="grid gap-4 sm:grid-cols-2">
+        {projects.map((project) => (
+          <ProjectCard project={project} locale={locale} />
+        ))}
+      </div>
+    )
+    : (
+      <p class="text-center text-slate-500 dark:text-slate-400 py-16">
+        {t(locale, 'projects.empty')}
+      </p>
+    )
+  }
+</BaseLayout>

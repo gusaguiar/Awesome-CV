@@ -1,0 +1,361 @@
+{
+  "personal": {
+    "name": "Gustavo Aguiar, M.Sc.",
+    "title": "Cientista de Dados Sênior · Engenheiro de Machine Learning · AI Specialist",
+    "contact": {
+      "email": "gustavoj.m.aguiar@outlook.com",
+      "phone": "(+55) 22 99278-4262",
+      "location": "Rio de Janeiro, Brasil",
+      "github": "https://github.com/gusaguiar",
+      "linkedin": "https://linkedin.com/in/gjmaguiar",
+      "lattes": "https://lattes.cnpq.br/1848857688296947",
+      "researchGate": "https://researchgate.net/profile/Gustavo_Aguiar4",
+      "orcid": "https://orcid.org/0000-0002-0538-0845"
+    },
+    "quote": [
+      {
+        "text": "Vocês compraram a ideia e esse produto faz meus olhos brilharem! Pude sentir que acreditavam de verdade que não seria só um trabalho, mas que existia propósito!",
+        "attribution": "Heyde Lemos, Subsecretária de Estado de Administração"
+      },
+      {
+        "text": "Outros prometiam entregar essa automação e nunca conseguiam atingir o resultado, vocês foram lá e fizeram!",
+        "attribution": "Rodrigo Lemos Santos, Diretor Jurídico e de CA, AB-InBev (Ambev)"
+      }
+    ]
+  },
+  "summary": "Cientista de Dados Especialista & Engenheiro de ML com foco em transformar dados em produtos que tenham impactos reais, especialmente em ganhos de agilidade em processos de negócio. Atuo desde o planejamento e design de soluções para projetos, até o desenvolvimento de produtos em ciência de dados e engenharia de machine learning, além de orientar profissionais nessa área.",
+  "summaryBullets": [
+    {
+      "label": "Ambev Tech",
+      "text": "Entreguei agentes inteligentes para o Jurídico com Python, LLMs (GPT-4o/GPT-4o-mini) e OCR com Tesseract, integrados ao framework Asimov Foundation em Azure, orquestrados via Azure Service Bus e expostos como APIs REST versionadas com observabilidade, CI/CD e governança (PostgreSQL e Azure Blob Storage)."
+    },
+    {
+      "label": "Governo de Estado - GovTech",
+      "text": "Atuei como Arquiteto de Soluções para projetos de GovTech nas secretarias SEGER, SESA, SEDU, SEJUS, SESP, SECONT, Polícia Civil (ES), SEPOL e DETRAN (RJ). Arquitetei Data Lakehouses completos com Cloudera Data Platform (HDFS/Impala/Ranger/Kerberos) + PySpark + Airflow, pipelines ETL em todas as camadas (Bronze, Silver, Gold), modelos de IA para detecção de anomalias, classificação de documentos, NER e forecasting, além de agentes RAG e +50 produtos de dados."
+    },
+    {
+      "label": "Grupo Eletrobrás",
+      "text": "Projetei e desenvolvi Data Mart jurídico integrado em SAS Viya com dashboards analíticos. Construí modelos preditivos para projeção de volume de processos, detecção de encerramento via NLP e classificação textual, com arquitetura híbrida SAS Compute + PySpark."
+    },
+    {
+      "label": "Tribunal de Contas",
+      "text": "Desenvolvi crawlers para coleta de diários oficiais, modelos NLP com NER para extração de entidades em licitações e contratos, estruturei dados em PostgreSQL e alimentei o SAS Visual Investigator como plataforma investigativa para auditores."
+    },
+    {
+      "label": "Óleo & Gás | Petrobras & Constellation",
+      "text": "Desenvolvi simulador Digital Twin de alta fidelidade para equipamentos Blowout Preventer com Matlab/Simulink, construí o ambiente BI 'BOP Data Universe', implementei mineração de texto em registros de falhas e criei sistema de alertas preventivos baseado em CBM com clusterização e modelos preditivos para IoT/sensores."
+    }
+  ],
+  "stack": "SAS Viya, Cloudera Data Platform (HDFS, Impala, Spark, Ranger, Kerberos), PySpark, Airflow, MLflow, FastAPI, Docker/Kubernetes (Rancher e OpenShift), AWS, Azure, PostgreSQL, Python (Scikit-Learn, PyTorch, TensorFlow, Keras, Numpy), Node/React, SLM/LLM/GenAI, Computer Vision, NLP (spaCy, NLTK, Embeddings, Vectors Database, Transformers), OCR (Tesseract), Power BI, SAS Visual Analytics.",
+  "experience": [
+    {
+      "id": "vert-especialista-2025",
+      "title": "Cientista de Dados Especialista",
+      "organization": "Vert Analytics",
+      "location": "Brasília, DF, Brasil",
+      "period": "Jan. 2025 - Presente",
+      "bullets": [
+        "Arquiteto de soluções de dados e IA para múltiplos contratos do Estado do Espírito Santo, liderando o desenho end-to-end de iniciativas analíticas e de ML em produção",
+        "Arquitetura de lakehouse e ML com Cloudera Data Platform, PySpark e Airflow, garantindo pipelines confiáveis nas camadas Bronze/Silver/Gold",
+        "Entrega de soluções de IA alinhadas ao portfólio GovTech, incluindo agentes com RAG e modelos especializados para operações do setor público",
+        "Deploy de soluções analíticas e serviços de IA em Kubernetes (Rancher e OpenShift)"
+      ]
+    },
+    {
+      "id": "ambev-tech-2025",
+      "title": "Consultor de Inteligência Artificial",
+      "organization": "Ambev Tech",
+      "location": "São Paulo, Brasil",
+      "period": "Ago. 2025 - Jan. 2026",
+      "bullets": [
+        "Desenvolvimento de agentes inteligentes para o departamento Jurídico com Python, linting contínuo com Ruff e análise de qualidade com SonarQube",
+        "Implementação de pipelines CI/CD no Azure DevOps com Git, testes automatizados, validação estática e deploy em dev/stg/prod",
+        "Construção de agentes com LLMs da OpenAI (GPT-4o e GPT-4o-mini), integrados ao framework interno Asimov Foundation em Azure",
+        "OCR avançado com TesseractOCR, com configurações customizadas para documentos jurídicos",
+        "Armazenamento de metadados em PostgreSQL e saída de extração em JSON no Azure Blob Storage",
+        "Orquestração assíncrona com Azure Service Bus para processamento por mensagens",
+        "Exposição dos agentes como APIs REST de alta performance com observabilidade e versionamento em dev/stg/prod",
+        "Monitoramento contínuo com DataDog (alertas, dashboards, tracing distribuído e erros em produção)"
+      ]
+    },
+    {
+      "id": "vert-senior-2022",
+      "title": "Cientista de Dados Sênior",
+      "organization": "Vert Analytics",
+      "location": "Brasília, DF, Brasil",
+      "period": "Jul. 2022 - Dez. 2024",
+      "bullets": [
+        "Arquiteto de Soluções GovTech para múltiplos projetos: SEGER, SESA, SEDU, SEJUS, SESP, SECONT, Polícia Civil (ES) e SEPOL, DETRAN (RJ)",
+        "Arquitetura de Data Lakehouses completos usando Cloudera Data Platform (HDFS/Impala/Ranger/Kerberos) + PySpark + Airflow com pipelines ETL automatizados em todas as camadas (Bronze, Silver, Gold) e deploys em Kubernetes (Rancher e OpenShift)",
+        "Implementação de modelos de IA para detecção de anomalias em preços públicos, classificação automática de documentos, extração de entidades via NER e forecasting de demandas",
+        "Construção de ferramenta de investigação e análise de rede para identificação de indícios de fraude em abastecimentos e manutenções da frota de veículos do estado",
+        "Modelos de projeção do consumo de água e energia para órgãos do estado",
+        "Agente de IA com RAG para a área de suprimentos da Secretaria Estadual de Administração, orientando procedimentos para convênios e serviços disponíveis",
+        "Agente de IA com RAG para a assessoria jurídica da Secretaria Estadual de Administração, apoiando a escrita de pareceres técnicos",
+        "Agente de IA para consulta em dados estruturados no Data Lake da Secretaria Estadual de Saúde",
+        "Projeto e desenvolvimento de Data Mart jurídico integrado em SAS Viya com dashboards analíticos para inteligência jurídica no Grupo Eletrobrás (Furnas, Chesf, Eletrosul, Eletronorte, Eletrobras Holding)",
+        "Construção de modelos preditivos para projeção de volume de processos jurídicos, probabilidade de desfecho desfavorável, detecção de encerramento via NLP e classificação baseada em conteúdo textual",
+        "Implementação de arquitetura híbrida SAS Compute + PySpark para processamento distribuído de grandes volumes de dados",
+        "Orientação de práticas de CI/CD, versionamento e MLOps para operacionalização de modelos de ML em produção",
+        "Desenvolvimento de mais de 50 produtos de dados, incluindo painéis de inteligência, robôs para automação de tarefas e modelos de ML"
+      ]
+    },
+    {
+      "id": "petrobras-fellow-2023",
+      "title": "Master Researcher Fellow",
+      "organization": "Petrobras",
+      "location": "Rio de Janeiro, Brasil",
+      "period": "Jun. 2023 - Mar. 2024",
+      "bullets": [
+        "Desenvolvimento de Digital Twin para Sistema de Completação Inteligente da Petrobras usando Python, PySpark, Airflow, MongoDB e Docker",
+        "Integração de tecnologias Open Source com Matlab/Simulink para construção de modelo físico virtual de alta fidelidade",
+        "Projeto gerenciado pela Petrobras (Cenpes) sob coordenação do D.Sc. Eng. Danilo Colombo, aplicando conceitos de monitoramento de sensores industriais",
+        "Implementação de arquitetura híbrida combinando ferramentas de engenharia tradicional com tecnologias modernas de dados e ML"
+      ]
+    },
+    {
+      "id": "vert-pleno-2022",
+      "title": "Cientista de Dados Pleno",
+      "organization": "Vert Analytics",
+      "location": "Brasília, DF, Brasil",
+      "period": "Fev. 2022 - Jun. 2022",
+      "bullets": [
+        "Desenvolvimento de crawlers para coleta automatizada de diários oficiais (municípios e estado) para o Tribunal de Contas",
+        "Implementação de modelos NLP com NER para extração de entidades em avisos de licitação e extratos de contratos",
+        "Estruturação de dados em PostgreSQL e alimentação do SAS Visual Investigator (ElasticSearch + CAS) como plataforma investigativa para auditores",
+        "Implementação de regras de alertas para detecção de indícios de fraude em processos licitatórios"
+      ]
+    },
+    {
+      "id": "laboro-pleno-2020",
+      "title": "Cientista de Dados Pleno",
+      "organization": "Laboratório de Estudos Avançados em Operações Responsivas e Otimização",
+      "location": "Rio de Janeiro, Brasil",
+      "period": "Dez. 2020 - Mar. 2023",
+      "bullets": [
+        "Desenvolvimento de simulador Digital Twin de alta fidelidade para equipamentos Blowout Preventer usando Matlab/Simulink com toolboxes especializados",
+        "Construção do ambiente BI 'BOP Data Universe' integrando múltiplas fontes de dados das empresas parceiras Petrobras, Constellation e Transocean",
+        "Implementação de mineração de texto em registros de falhas via NLTK/Scikit-Learn para análise de padrões de manutenção e modos de falha",
+        "Criação de sistema de alertas preventivos baseado em CBM (Condition-Based Maintenance) com clusterização para análise de IoT/sensores"
+      ]
+    },
+    {
+      "id": "laboro-junior-2018",
+      "title": "Cientista de Dados Junior",
+      "organization": "Laboratório de Estudos Avançados em Operações Responsivas e Otimização",
+      "location": "Rio de Janeiro, Brasil",
+      "period": "Set. 2018 - Dez. 2020",
+      "bullets": [
+        "Mineração de texto em registros de falha do equipamento Blowout Preventer usando NLTK e Scikit-Learn",
+        "Análise exploratória de dados com Python, Excel, Jupyter Notebook e Power BI para identificação de padrões de falhas",
+        "Processamento e limpeza de dados de falhas operacionais para construção de base de conhecimento sobre equipamentos críticos",
+        "Desenvolvimento de análise estatística de sobrevivência para a vida útil de componentes do Blowout Preventer"
+      ]
+    },
+    {
+      "id": "antt-analista-2019",
+      "title": "Analista de Dados",
+      "organization": "Laboratório de Empreendimentos Inovadores",
+      "location": "Rio de Janeiro, Brasil",
+      "period": "Jan. 2019 - Jun. 2020",
+      "bullets": [
+        "Coleta e processamento de dados de entrevistas com diretores da ANTT e representantes dos principais stakeholders usando Python",
+        "Condução de entrevistas estruturadas com superintendentes e gerentes para mapeamento do fluxo de tomada de decisões",
+        "Tratamento e organização de dados qualitativos e quantitativos para construção do novo planejamento estratégico da ANTT 2020-2030",
+        "Desenvolvimento de painéis de inteligência para monitoramento de indicadores estratégicos usando Power BI, Python, SQL e Excel"
+      ]
+    },
+    {
+      "id": "faperj-fellow-2017",
+      "title": "Research Fellow",
+      "organization": "Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do Rio de Janeiro (FAPERJ)",
+      "location": "Rio de Janeiro, Brasil",
+      "period": "Mai. 2017 - Mai. 2018",
+      "bullets": [
+        "Estudo da Análise de Fourier como ferramenta para solução de Equações Diferenciais Parciais (EDPs)",
+        "Aplicação da teoria na solução dos principais modelos de EDPs: calor, equações de onda e de Laplace",
+        "Resolução da equação de Black-Scholes para precificação de opções no mercado europeu"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "mba-usp-2025",
+      "degree": "Master of Business Administration (MBA) - Data Science & Analytics",
+      "institution": "Universidade de São Paulo",
+      "location": "São Paulo, Brasil",
+      "period": "Jun. 2025 - Dez. 2026",
+      "bullets": [
+        "Formação aplicada em Data Science & Analytics com três frentes integradas: Engenharia de ML, Ciência de Dados e Engenharia de Dados",
+        "Pipelines ponta-a-ponta com MLOps, versionamento, CI/CD, Docker, Kubernetes, APIs REST e microserviços",
+        "EDA avançada com pandas/NumPy, estatística inferencial, regressão, classificação, clustering, NLP, séries temporais",
+        "Arquiteturas Data Lakehouse e DW, processamento distribuído com Spark e Hadoop"
+      ]
+    },
+    {
+      "id": "mestrado-uff-2021",
+      "degree": "Mestrado em Sistemas Computacionais",
+      "institution": "Universidade Federal Fluminense",
+      "location": "Rio de Janeiro, Brasil",
+      "period": "Abr. 2021 - Abr. 2024",
+      "bullets": []
+    },
+    {
+      "id": "ds-udacity-2021",
+      "degree": "Especialização em Data Science",
+      "institution": "Udacity",
+      "location": "California, Estados Unidos",
+      "period": "Set. 2021 - Jan. 2022",
+      "bullets": [
+        "Supervised ML: algoritmos de regressão/classificação, decision trees, random forests, neural networks com scikit-learn",
+        "Software Engineering: OOP Python, unit testing, virtual environments, Python packaging, linting, GitHub Actions",
+        "Data Science Pipelines: PyTorch, CNNs, NLP com tokenization/stemming/lemmatization, OpenCV para computer vision",
+        "Unsupervised ML: K-means clustering, PCA, sistemas de recomendação, matrix factorization, hierarchical clustering"
+      ]
+    },
+    {
+      "id": "mle-aws-udacity-2022",
+      "degree": "Especialização em Engenharia de Machine Learning - AWS",
+      "institution": "Udacity",
+      "location": "California, Estados Unidos",
+      "period": "Out. 2022 - Fev. 2023",
+      "bullets": [
+        "Análise de dados e engenharia de atributos com Data Wrangler e Pandas no SageMaker Studio",
+        "Desenho, treinamento, avaliação e ajuste de hiperparâmetros de modelos de regressão e classificação",
+        "Deploy de modelos como endpoints para inferência em dados em tempo real",
+        "Fine-tuning de modelos pré-treinados (ResNet, MXNet e BERT)",
+        "Uso de serviços AWS: SageMaker, S3, IAM, Lambda, Step Functions, EC2, CloudWatch, Model Monitor e Feature Store"
+      ]
+    },
+    {
+      "id": "engpro-uff-2015",
+      "degree": "Bacharelado em Engenharia de Produção",
+      "institution": "Universidade Federal Fluminense",
+      "location": "Rio de Janeiro, Brasil",
+      "period": "2015 - 2020",
+      "bullets": []
+    }
+  ],
+  "certificates": [
+    { "id": "enap-cloud-2025",   "title": "Administration of Government Cloud Services",              "issuer": "ENAP",    "date": "Jun 2025" },
+    { "id": "enap-datadri-2025", "title": "Governo Data-Driven: Transformação Orientada por Dados",   "issuer": "ENAP",    "date": "Jun 2025" },
+    { "id": "sas-modelops-2025", "title": "ModelOps: Governing AI and Machine Learning Models",        "issuer": "SAS",     "date": "Jun 2025" },
+    { "id": "enap-digital-2025", "title": "Transformação Digital no Serviço Público",                  "issuer": "ENAP",    "date": "Jun 2025" },
+    { "id": "enap-ux-2025",      "title": "UX: Como Melhorar a Experiência do Usuário no Serviço Público Digital", "issuer": "ENAP", "date": "Jun 2025" },
+    { "id": "sas-prog3-2024",    "title": "SAS Programming 3: Advanced Techniques",                   "issuer": "SAS",     "date": "Jul 2024" },
+    { "id": "sas-prog2-2024",    "title": "SAS Programming 2: Data Manipulation Techniques",          "issuer": "SAS",     "date": "Jul 2024" },
+    { "id": "sas-viya-2024",     "title": "SAS Viya Platform Administration",                          "issuer": "SAS",     "date": "Jul 2024" },
+    { "id": "microsoft-fabric",  "title": "Microsoft Fabric Analytics Engineer Associate (DP-600)",   "issuer": "Microsoft", "date": "Abr 2024" },
+    { "id": "aws-mle-2023",      "title": "Machine Learning Engineer Nanodegree - AWS",                "issuer": "Udacity", "date": "Fev 2023" },
+    { "id": "azureai-2022",      "title": "Microsoft Azure AI Fundamentals (AI-900)",                  "issuer": "Microsoft", "date": "Dez 2022" },
+    { "id": "gcp-mle-2022",      "title": "Machine Learning Engineer Learning Path",                   "issuer": "Google Cloud", "date": "Nov 2022" },
+    { "id": "gcp-de-2022",       "title": "Data Engineer Learning Path",                               "issuer": "Google Cloud", "date": "Out 2022" },
+    { "id": "ds-udacity-cert",   "title": "Data Science Nanodegree",                                   "issuer": "Udacity", "date": "Jan 2022" },
+    { "id": "azuredp-2021",      "title": "Microsoft Azure Data Fundamentals (DP-900)",                "issuer": "Microsoft", "date": "Dez 2021" },
+    { "id": "azurefund-2021",    "title": "Microsoft Azure Fundamentals (AZ-900)",                     "issuer": "Microsoft", "date": "Nov 2021" }
+  ],
+  "honors": [
+    {
+      "id": "laurea-uff-2023",
+      "position": "Prêmio Láurea Acadêmica - 2020",
+      "title": "Universidade Federal Fluminense",
+      "location": "Rio de Janeiro, Brasil",
+      "date": "2023"
+    },
+    {
+      "id": "obi-bronze-2011",
+      "position": "Medalha de Bronze",
+      "title": "Olimpíada Brasileira de Informática",
+      "location": "São Paulo, Brasil",
+      "date": "2011"
+    },
+    {
+      "id": "arquiteto-govtech-2025",
+      "position": "Arquiteto de Soluções - GovTech",
+      "title": "Vert Analytics",
+      "location": "Espírito Santo, Brasil",
+      "date": "2025"
+    },
+    {
+      "id": "mentor-ds-2024",
+      "position": "Mentor Técnico em Ciência de Dados e ML",
+      "title": "Vert Analytics",
+      "location": "Espírito Santo, Brasil",
+      "date": "2024"
+    },
+    {
+      "id": "reviewer-eaai",
+      "position": "Peer Reviewer",
+      "title": "Engineering Applications of Artificial Intelligence",
+      "location": "Amsterdam, Netherlands",
+      "date": "Presente"
+    },
+    {
+      "id": "reviewer-jcp",
+      "position": "Peer Reviewer",
+      "title": "Journal of Cleaner Production",
+      "location": "Amsterdam, Netherlands",
+      "date": "Presente"
+    },
+    {
+      "id": "reviewer-ress",
+      "position": "Peer Reviewer",
+      "title": "Reliability Engineering & System Safety",
+      "location": "Amsterdam, Netherlands",
+      "date": "Presente"
+    }
+  ],
+  "committees": [
+    {
+      "id": "rec-fabio-2025",
+      "position": "Arquiteto de Dados",
+      "title": "Fabio Ferreira - Vert Analytics",
+      "location": "Brasil",
+      "date": "2025"
+    },
+    {
+      "id": "rec-luciana-2025",
+      "position": "Gerente de Projetos",
+      "title": "Luciana Miranda - Vert Analytics",
+      "location": "Brasil",
+      "date": "2025"
+    },
+    {
+      "id": "rec-arthur-2025",
+      "position": "Especialista em Business Intelligence",
+      "title": "Arthur Diego Pereira - Vert Analytics",
+      "location": "Brasil",
+      "date": "2025"
+    },
+    {
+      "id": "rec-matheus-2025",
+      "position": "Senior UX/UI Designer",
+      "title": "Matheus Cougo - Vert Analytics",
+      "location": "Brasil",
+      "date": "2025"
+    },
+    {
+      "id": "rec-wyllton-2025",
+      "position": "Senior Data Engineer",
+      "title": "Wyllton Maciel - Vert Analytics",
+      "location": "Brasil",
+      "date": "2025"
+    }
+  ],
+  "extracurricular": [
+    {
+      "id": "caep-uff-2018",
+      "title": "Vice-diretor",
+      "organization": "Centro Acadêmico de Engenharia de Produção - UFF",
+      "period": "Mar. 2018 - Mar. 2019",
+      "description": "Liderou iniciativas estudantis, organizou eventos acadêmicos como a II Semana de Engenharia e promoveu alfabetização científica para crianças."
+    },
+    {
+      "id": "comissoes-uff-2018",
+      "title": "Membro de Comissões Acadêmicas",
+      "organization": "Instituto de Ciência e Tecnologia - UFF",
+      "period": "2018 - 2019",
+      "description": "Membro da Comissão de Avaliação para o VII Prêmio de Excelência em Docência e da Comissão Eleitoral para Diretor e Vice-Diretor do Instituto."
+    }
+  ]
+}

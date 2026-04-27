@@ -1,0 +1,346 @@
+{
+  "personal": {
+    "name": "Gustavo Aguiar, M.Sc.",
+    "title": "Senior Data Scientist · Machine Learning Engineer · AI Specialist",
+    "contact": {
+      "email": "gustavoj.m.aguiar@outlook.com",
+      "phone": "(+55) 22 99278-4262",
+      "location": "Rio de Janeiro, Brazil",
+      "github": "https://github.com/gusaguiar",
+      "linkedin": "https://linkedin.com/in/gjmaguiar",
+      "lattes": "https://lattes.cnpq.br/1848857688296947",
+      "researchGate": "https://researchgate.net/profile/Gustavo_Aguiar4",
+      "orcid": "https://orcid.org/0000-0002-0538-0845"
+    },
+    "quote": [
+      {
+        "text": "You bought the idea and this product makes my eyes shine! I could feel that you really believed it wouldn't just be work, but that there was purpose!",
+        "attribution": "Heyde Lemos, Deputy Secretary of State for Administration"
+      },
+      {
+        "text": "Others promised to deliver this automation and never managed to achieve the result; you went there and did it!",
+        "attribution": "Rodrigo Lemos Santos, Legal & CA Director, AB-InBev (Ambev)"
+      }
+    ]
+  },
+  "summary": "Senior Data Scientist & ML Engineer focused on transforming data into products that have real impacts, especially in business process agility gains. I work from planning and designing solutions for projects to developing products in data science and machine learning engineering, as well as mentoring professionals in this area.",
+  "summaryBullets": [
+    {
+      "label": "Ambev Tech",
+      "text": "I delivered intelligent agents for the Legal department using Python, LLMs (GPT-4o/GPT-4o-mini), and OCR with Tesseract, integrated into the internal Asimov Foundation framework on Azure, orchestrated via Azure Service Bus, and exposed as versioned REST APIs with observability, CI/CD, and data governance (PostgreSQL and Azure Blob Storage)."
+    },
+    {
+      "label": "State Government - GovTech",
+      "text": "I acted as Solution Architect for GovTech projects across SEGER, SESA, SEDU, SEJUS, SESP, SECONT, Civil Police (ES), SEPOL and DETRAN (RJ). I architected complete Data Lakehouses with Cloudera Data Platform (HDFS/Impala/Ranger/Kerberos) + PySpark + Airflow, ETL pipelines across all layers (Bronze, Silver, Gold), AI models for anomaly detection, document classification, NER and forecasting, plus RAG-based AI agents and 50+ data products."
+    },
+    {
+      "label": "Eletrobrás Group",
+      "text": "I designed and developed an integrated legal Data Mart in SAS Viya with analytical dashboards for legal intelligence. I built predictive models for projecting legal process volume, closure detection via NLP and content-based textual classification, with a hybrid SAS Compute + PySpark architecture."
+    },
+    {
+      "label": "Court of Accounts",
+      "text": "I developed crawlers for automated collection of official gazettes, NLP models with NER for entity extraction in bidding notices and contracts, structured data in PostgreSQL and fed SAS Visual Investigator as an investigative platform for auditors."
+    },
+    {
+      "label": "Oil & Gas | Petrobras & Constellation",
+      "text": "I developed a high-fidelity Digital Twin simulator for Blowout Preventer equipment using Matlab/Simulink, built the 'BOP Data Universe' BI environment, implemented text mining in failure records and created a preventive alert system based on CBM (Condition-Based Maintenance) with clustering and predictive models for IoT/sensor analysis."
+    }
+  ],
+  "stack": "SAS Viya, Cloudera Data Platform (HDFS, Impala, Spark, Ranger, Kerberos), PySpark, Airflow, MLflow, FastAPI, Docker/Kubernetes (Rancher and OpenShift), AWS, Azure, PostgreSQL, Python (Scikit-Learn, PyTorch, TensorFlow, Keras, Numpy), Node/React, SLM/LLM/GenAI, Computer Vision, NLP (spaCy, NLTK, Embeddings, Vectors Database, Transformers), OCR (Tesseract), Power BI, SAS Visual Analytics.",
+  "experience": [
+    {
+      "id": "vert-specialist-2025",
+      "title": "Senior Data Scientist (Specialist)",
+      "organization": "Vert Analytics",
+      "location": "Brasilia, DF, Brazil",
+      "period": "Jan. 2025 - Present",
+      "bullets": [
+        "Data and AI solutions architect for multiple contracts with the State of Espirito Santo, leading end-to-end design of analytical and ML initiatives in production",
+        "Lakehouse and ML architecture using Cloudera Data Platform, PySpark and Airflow, ensuring reliable pipelines across Bronze/Silver/Gold layers",
+        "Delivery of AI solutions aligned with the GovTech portfolio, including RAG-based agents and specialized models for public sector operations",
+        "Deployment of analytical solutions and AI services on Kubernetes (Rancher and OpenShift)"
+      ]
+    },
+    {
+      "id": "ambev-ai-2025",
+      "title": "Artificial Intelligence Consultant",
+      "organization": "Ambev Tech",
+      "location": "São Paulo, Brazil",
+      "period": "Aug. 2025 - Jan. 2026",
+      "bullets": [
+        "Development of intelligent agents for the Legal department using Python, continuous linting with Ruff and quality analysis with SonarQube",
+        "CI/CD pipeline implementation on Azure DevOps with Git, automated testing, static validation and deployment to dev/stg/prod",
+        "Building agents with OpenAI LLMs (GPT-4o and GPT-4o-mini), integrated into the internal Asimov Foundation framework on Azure",
+        "Advanced OCR with TesseractOCR, with custom configurations for legal documents",
+        "Metadata storage in PostgreSQL and extraction output in JSON on Azure Blob Storage",
+        "Asynchronous orchestration with Azure Service Bus for message-based processing",
+        "Exposing agents as high-performance REST APIs with observability and versioning across dev/stg/prod",
+        "Continuous monitoring with DataDog (alerts, dashboards, distributed tracing and production errors)"
+      ]
+    },
+    {
+      "id": "vert-senior-2022",
+      "title": "Senior Data Scientist",
+      "organization": "Vert Analytics",
+      "location": "Brasilia, DF, Brazil",
+      "period": "Jul. 2022 - Dec. 2024",
+      "bullets": [
+        "GovTech Solutions Architect for multiple projects: SEGER, SESA, SEDU, SEJUS, SESP, SECONT, Civil Police (ES), SEPOL and DETRAN (RJ)",
+        "Architecture of complete Data Lakehouses using Cloudera Data Platform (HDFS/Impala/Ranger/Kerberos) + PySpark + Airflow with automated ETL pipelines across all layers (Bronze, Silver, Gold) and deployments on Kubernetes (Rancher and OpenShift)",
+        "Implementation of AI models for anomaly detection in public prices, automatic document classification, entity extraction via NER and demand forecasting",
+        "Development of investigation and network analysis tool for detecting fraud indicators in fleet vehicle supply and maintenance",
+        "Projection models for water and energy consumption for state agencies",
+        "AI agent with RAG for the procurement division of the State Administration Secretariat",
+        "AI agent with RAG for the legal advisory of the State Administration Secretariat, supporting the writing of technical opinions",
+        "AI agent for querying structured data in the State Health Secretariat Data Lake",
+        "Design and development of integrated legal Data Mart in SAS Viya with analytical dashboards for the Eletrobras Group (Furnas, Chesf, Eletrosul, Eletronorte, Eletrobras Holding)",
+        "Building predictive models for projecting legal process volume, unfavorable outcome probability, closure detection via NLP and content-based textual classification",
+        "Implementation of hybrid SAS Compute + PySpark architecture for distributed processing of large document volumes",
+        "Guidance on CI/CD practices, versioning and MLOps for operationalizing ML models in production",
+        "Development of more than 50 data products, including intelligence dashboards, task automation robots and ML models"
+      ]
+    },
+    {
+      "id": "petrobras-fellow-2023",
+      "title": "Master Researcher Fellow",
+      "organization": "Petrobras",
+      "location": "Rio de Janeiro, Brazil",
+      "period": "Jun. 2023 - Mar. 2024",
+      "bullets": [
+        "Development of Digital Twin for Petrobras' Intelligent Completion System using Python, PySpark, Airflow, MongoDB and Docker",
+        "Integration of Open Source technologies with Matlab/Simulink to build a high-fidelity virtual physical model",
+        "Project managed by Petrobras (Cenpes) under coordination of D.Sc. Eng. Danilo Colombo, applying industrial sensor monitoring concepts",
+        "Implementation of hybrid architecture combining traditional engineering tools with modern data and ML technologies"
+      ]
+    },
+    {
+      "id": "vert-mid-2022",
+      "title": "Mid-Level Data Scientist",
+      "organization": "Vert Analytics",
+      "location": "Brasilia, DF, Brazil",
+      "period": "Feb. 2022 - Jun. 2022",
+      "bullets": [
+        "Development of crawlers for automated collection of official gazettes (municipalities and state) for the Court of Accounts",
+        "Implementation of NLP models with NER for entity extraction in bidding notices and contract extracts",
+        "Data structuring in PostgreSQL and feeding SAS Visual Investigator (ElasticSearch + CAS) as an investigative platform for auditors",
+        "Implementation of alert rules for detecting fraud indicators in bidding processes"
+      ]
+    },
+    {
+      "id": "laboro-mid-2020",
+      "title": "Mid-Level Data Scientist",
+      "organization": "Laboratory of Advanced Studies in Responsive Operations and Optimization",
+      "location": "Rio de Janeiro, Brazil",
+      "period": "Dec. 2020 - Mar. 2023",
+      "bullets": [
+        "Development of high-fidelity Digital Twin simulator for Blowout Preventer equipment using Matlab/Simulink with specialized toolboxes",
+        "Construction of the 'BOP Data Universe' BI environment integrating multiple data sources from partner companies Petrobras, Constellation and Transocean",
+        "Implementation of text mining in failure records via NLTK/Scikit-Learn for analysis of maintenance patterns and failure modes",
+        "Creation of preventive alert system based on CBM (Condition-Based Maintenance) with clustering for IoT/sensor analysis"
+      ]
+    },
+    {
+      "id": "laboro-junior-2018",
+      "title": "Junior Data Scientist",
+      "organization": "Laboratory of Advanced Studies in Responsive Operations and Optimization",
+      "location": "Rio de Janeiro, Brazil",
+      "period": "Sep. 2018 - Dec. 2020",
+      "bullets": [
+        "Text mining in Blowout Preventer equipment failure records using NLTK and Scikit-Learn",
+        "Exploratory data analysis with Python, Excel, Jupyter Notebook and Power BI for failure pattern identification",
+        "Processing and cleaning of operational failure data for building a knowledge base on critical equipment",
+        "Development of survival statistical analysis for the service life of Blowout Preventer components"
+      ]
+    },
+    {
+      "id": "antt-analyst-2019",
+      "title": "Data Analyst",
+      "organization": "Innovative Ventures Laboratory",
+      "location": "Rio de Janeiro, Brazil",
+      "period": "Jan. 2019 - Jun. 2020",
+      "bullets": [
+        "Collection and processing of interview data with ANTT directors and major stakeholder representatives using Python",
+        "Conducting structured interviews with superintendents and managers for decision-making flow and organizational responsibility mapping",
+        "Treatment and organization of qualitative and quantitative data for building the new ANTT 2020-2030 strategic plan",
+        "Development of intelligence dashboards for strategic indicator and goal monitoring using Power BI, Python, SQL and Excel"
+      ]
+    },
+    {
+      "id": "faperj-fellow-2017",
+      "title": "Research Fellow",
+      "organization": "Carlos Chagas Filho Foundation for Research Support of the State of Rio de Janeiro (FAPERJ)",
+      "location": "Rio de Janeiro, Brazil",
+      "period": "May. 2017 - May. 2018",
+      "bullets": [
+        "Study of Fourier Analysis as a tool for solving Partial Differential Equations (PDEs)",
+        "Application of the theory to solving the main PDE models: heat, wave and Laplace equations",
+        "Resolution of the Black-Scholes equation for option pricing in the European market"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "mba-usp-2025",
+      "degree": "Master of Business Administration (MBA) - Data Science & Analytics",
+      "institution": "University of Sao Paulo",
+      "location": "Sao Paulo, Brazil",
+      "period": "Jun. 2025 - Dec. 2026",
+      "bullets": [
+        "Applied training in Data Science & Analytics with three integrated tracks: ML Engineering, Data Science and Data Engineering",
+        "End-to-end pipelines with MLOps, versioning, CI/CD, Docker, Kubernetes, REST APIs and microservices",
+        "Advanced EDA with pandas/NumPy, inferential statistics, regression, classification, clustering, NLP, time series",
+        "Data Lakehouse and DW architectures, distributed processing with Spark and Hadoop"
+      ]
+    },
+    {
+      "id": "mestrado-uff-2021",
+      "degree": "M.Sc. in Computer Systems",
+      "institution": "Fluminense Federal University",
+      "location": "Rio de Janeiro, Brazil",
+      "period": "Apr. 2021 - Apr. 2024",
+      "bullets": []
+    },
+    {
+      "id": "ds-udacity-2021",
+      "degree": "Specialization in Data Science",
+      "institution": "Udacity",
+      "location": "California, United States",
+      "period": "Sep. 2021 - Jan. 2022",
+      "bullets": [
+        "Supervised ML: regression/classification algorithms, decision trees, random forests, neural networks with scikit-learn",
+        "Software Engineering: OOP Python, unit testing, virtual environments, Python packaging, linting, GitHub Actions",
+        "Data Science Pipelines: PyTorch, CNNs, NLP with tokenization/stemming/lemmatization, OpenCV for computer vision",
+        "Unsupervised ML: K-means clustering, PCA, recommendation systems, matrix factorization, hierarchical clustering"
+      ]
+    },
+    {
+      "id": "mle-aws-udacity-2022",
+      "degree": "Specialization in Machine Learning Engineering - AWS",
+      "institution": "Udacity",
+      "location": "California, United States",
+      "period": "Oct. 2022 - Feb. 2023",
+      "bullets": [
+        "Data analysis and feature engineering with Data Wrangler and Pandas in SageMaker Studio",
+        "Design, training, evaluation and hyperparameter tuning of regression and classification models",
+        "Deployment of models as endpoints for real-time data inference",
+        "Fine-tuning of pre-trained models (ResNet, MXNet and BERT)",
+        "Use of AWS services: SageMaker, S3, IAM, Lambda, Step Functions, EC2, CloudWatch, Model Monitor and Feature Store"
+      ]
+    },
+    {
+      "id": "engpro-uff-2015",
+      "degree": "B.Sc. in Industrial Engineering",
+      "institution": "Fluminense Federal University",
+      "location": "Rio de Janeiro, Brazil",
+      "period": "2015 - 2020",
+      "bullets": []
+    }
+  ],
+  "certificates": [
+    { "id": "enap-cloud-2025",   "title": "Administration of Government Cloud Services",              "issuer": "ENAP",    "date": "Jun 2025" },
+    { "id": "enap-datadri-2025", "title": "Data-Driven Government: Data-Oriented Transformation",    "issuer": "ENAP",    "date": "Jun 2025" },
+    { "id": "sas-modelops-2025", "title": "ModelOps: Governing AI and Machine Learning Models",        "issuer": "SAS",     "date": "Jun 2025" },
+    { "id": "enap-digital-2025", "title": "Digital Transformation in Public Service",                  "issuer": "ENAP",    "date": "Jun 2025" },
+    { "id": "sas-prog3-2024",    "title": "SAS Programming 3: Advanced Techniques",                   "issuer": "SAS",     "date": "Jul 2024" },
+    { "id": "sas-prog2-2024",    "title": "SAS Programming 2: Data Manipulation Techniques",          "issuer": "SAS",     "date": "Jul 2024" },
+    { "id": "sas-viya-2024",     "title": "SAS Viya Platform Administration",                          "issuer": "SAS",     "date": "Jul 2024" },
+    { "id": "microsoft-fabric",  "title": "Microsoft Fabric Analytics Engineer Associate (DP-600)",   "issuer": "Microsoft", "date": "Apr 2024" },
+    { "id": "aws-mle-2023",      "title": "Machine Learning Engineer Nanodegree - AWS",                "issuer": "Udacity", "date": "Feb 2023" },
+    { "id": "azureai-2022",      "title": "Microsoft Azure AI Fundamentals (AI-900)",                  "issuer": "Microsoft", "date": "Dec 2022" },
+    { "id": "gcp-mle-2022",      "title": "Machine Learning Engineer Learning Path",                   "issuer": "Google Cloud", "date": "Nov 2022" },
+    { "id": "gcp-de-2022",       "title": "Data Engineer Learning Path",                               "issuer": "Google Cloud", "date": "Oct 2022" },
+    { "id": "ds-udacity-cert",   "title": "Data Science Nanodegree",                                   "issuer": "Udacity", "date": "Jan 2022" },
+    { "id": "azuredp-2021",      "title": "Microsoft Azure Data Fundamentals (DP-900)",                "issuer": "Microsoft", "date": "Dec 2021" },
+    { "id": "azurefund-2021",    "title": "Microsoft Azure Fundamentals (AZ-900)",                     "issuer": "Microsoft", "date": "Nov 2021" }
+  ],
+  "honors": [
+    {
+      "id": "laurea-uff-2023",
+      "position": "Academic Laurea Award - 2020",
+      "title": "Fluminense Federal University",
+      "location": "Rio de Janeiro, Brazil",
+      "date": "2023"
+    },
+    {
+      "id": "obi-bronze-2011",
+      "position": "Bronze Medal",
+      "title": "Brazilian Olympiad in Informatics",
+      "location": "Sao Paulo, Brazil",
+      "date": "2011"
+    },
+    {
+      "id": "arquiteto-govtech-2025",
+      "position": "Solutions Architect - GovTech",
+      "title": "Vert Analytics",
+      "location": "Espirito Santo, Brazil",
+      "date": "2025"
+    },
+    {
+      "id": "mentor-ds-2024",
+      "position": "Technical Mentor in Data Science and ML",
+      "title": "Vert Analytics",
+      "location": "Espirito Santo, Brazil",
+      "date": "2024"
+    },
+    {
+      "id": "reviewer-eaai",
+      "position": "Peer Reviewer",
+      "title": "Engineering Applications of Artificial Intelligence",
+      "location": "Amsterdam, Netherlands",
+      "date": "Present"
+    },
+    {
+      "id": "reviewer-jcp",
+      "position": "Peer Reviewer",
+      "title": "Journal of Cleaner Production",
+      "location": "Amsterdam, Netherlands",
+      "date": "Present"
+    },
+    {
+      "id": "reviewer-ress",
+      "position": "Peer Reviewer",
+      "title": "Reliability Engineering & System Safety",
+      "location": "Amsterdam, Netherlands",
+      "date": "Present"
+    }
+  ],
+  "committees": [
+    {
+      "id": "rec-fabio-2025",
+      "position": "Data Architect",
+      "title": "Fabio Ferreira - Vert Analytics",
+      "location": "Brazil",
+      "date": "2025"
+    },
+    {
+      "id": "rec-luciana-2025",
+      "position": "Project Manager",
+      "title": "Luciana Miranda - Vert Analytics",
+      "location": "Brazil",
+      "date": "2025"
+    },
+    {
+      "id": "rec-arthur-2025",
+      "position": "Business Intelligence Specialist",
+      "title": "Arthur Diego Pereira - Vert Analytics",
+      "location": "Brazil",
+      "date": "2025"
+    }
+  ],
+  "extracurricular": [
+    {
+      "id": "caep-uff-2018",
+      "title": "Vice-Director",
+      "organization": "Industrial Engineering Academic Center - UFF",
+      "period": "Mar. 2018 - Mar. 2019",
+      "description": "Led student initiatives, organized academic events including the 2nd Engineering Week and promoted science literacy for children through creative activities."
+    },
+    {
+      "id": "comissoes-uff-2018",
+      "title": "Academic Committee Member",
+      "organization": "Institute of Science and Technology - UFF",
+      "period": "2018 - 2019",
+      "description": "Member of the Evaluation Committee for the VII Excellence in Teaching Award and the Electoral Committee for Institute Director and Vice-Director."
+    }
+  ]
+}

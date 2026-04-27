@@ -1,0 +1,51 @@
+---
+import Section from '@/components/ui/Section.astro';
+import GlassCard from '@/components/ui/GlassCard.astro';
+import { t, type Locale } from '@/i18n/ui';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  resume: CollectionEntry<'resume'>['data'];
+  locale: Locale;
+}
+
+const { resume, locale } = Astro.props;
+---
+
+<Section title={t(locale, 'section.experience')} id="experiencia">
+  <div class="relative space-y-4">
+    <!-- Linha vertical de timeline -->
+    <div class="absolute left-[11px] top-0 bottom-0 w-px bg-gradient-to-b from-emerald-500/40 via-slate-300/40 to-transparent dark:from-emerald-400/30 dark:via-slate-600/40 hidden md:block" aria-hidden="true"></div>
+
+    {resume.experience.map((entry) => (
+      <div class="relative md:pl-10" id={entry.id}>
+        <!-- Ponto na timeline -->
+        <div class="absolute left-0 top-6 hidden h-[10px] w-[10px] rounded-full border-2 border-emerald-500 bg-white dark:bg-slate-900 dark:border-emerald-400 md:block" aria-hidden="true"></div>
+
+        <GlassCard hoverable>
+          <div class="flex flex-col gap-1 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
+            <div class="flex-1 min-w-0">
+              <h3 class="font-semibold text-slate-900 dark:text-slate-100">{entry.title}</h3>
+              <p class="text-sm text-emerald-600 dark:text-emerald-400 font-medium">{entry.organization}</p>
+              <p class="text-xs text-slate-500 dark:text-slate-500 mt-0.5">{entry.location}</p>
+            </div>
+            <time class="shrink-0 text-xs text-slate-500 dark:text-slate-400 font-mono whitespace-nowrap mt-1 sm:mt-0">
+              {entry.period}
+            </time>
+          </div>
+
+          {entry.bullets.length > 0 && (
+            <ul class="mt-4 space-y-1.5">
+              {entry.bullets.map((bullet) => (
+                <li class="flex gap-2 text-sm text-slate-600 dark:text-slate-400">
+                  <span class="mt-1.5 shrink-0 h-1.5 w-1.5 rounded-full bg-emerald-500/70 dark:bg-emerald-400/70" aria-hidden="true"></span>
+                  {bullet}
+                </li>
+              ))}
+            </ul>
+          )}
+        </GlassCard>
+      </div>
+    ))}
+  </div>
+</Section>

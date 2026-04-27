@@ -21,3 +21,8 @@
 ## Mac OS X metadata files:
 *.DS_Store
 
+### Site (web/) ###
+web/node_modules/
+web/dist/
+web/.astro/
+

@@ -1,0 +1,38 @@
+---
+import Section from '@/components/ui/Section.astro';
+import GlassCard from '@/components/ui/GlassCard.astro';
+import { t, type Locale } from '@/i18n/ui';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  resume: CollectionEntry<'resume'>['data'];
+  locale: Locale;
+}
+
+const { resume, locale } = Astro.props;
+---
+
+<Section title={t(locale, 'section.extracurricular')} id="extracurricular">
+  <div class="space-y-4">
+    {resume.extracurricular.map((entry) => (
+      <GlassCard hoverable id={entry.id}>
+        <div class="flex flex-col gap-1 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
+          <div class="flex-1 min-w-0">
+            <h3 class="font-semibold text-slate-900 dark:text-slate-100">{entry.title}</h3>
+            {entry.organization && (
+              <p class="text-sm text-emerald-600 dark:text-emerald-400 font-medium">{entry.organization}</p>
+            )}
+            {entry.description && (
+              <p class="mt-2 text-sm text-slate-600 dark:text-slate-400 leading-relaxed">{entry.description}</p>
+            )}
+          </div>
+          {entry.period && (
+            <time class="shrink-0 text-xs text-slate-500 dark:text-slate-400 font-mono whitespace-nowrap mt-1 sm:mt-0">
+              {entry.period}
+            </time>
+          )}
+        </div>
+      </GlassCard>
+    ))}
+  </div>
+</Section>

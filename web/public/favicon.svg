@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Fundo circular com a cor primária emerald -->
+  <circle cx="16" cy="16" r="16" fill="#10b981"/>
+  <!-- Iniciais GA em branco, tipografia geométrica -->
+  <text
+    x="16"
+    y="21"
+    text-anchor="middle"
+    font-family="'Source Sans 3', 'Roboto', sans-serif"
+    font-size="14"
+    font-weight="700"
+    fill="white"
+    letter-spacing="-0.5"
+  >GA</text>
+</svg>

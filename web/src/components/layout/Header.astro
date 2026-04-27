@@ -1,0 +1,78 @@
+---
+import ThemeToggle from './ThemeToggle.tsx';
+import LangToggle from './LangToggle.tsx';
+import { t, type Locale } from '@/i18n/ui';
+import { localePath } from '@/i18n/utils';
+
+interface Props {
+  locale: Locale;
+  currentPath: string;
+}
+
+const { locale, currentPath } = Astro.props;
+
+const navLinks = [
+  { href: localePath(locale, '/'), label: t(locale, 'nav.resume') },
+  { href: localePath(locale, locale === 'pt-br' ? '/artigos' : '/articles'), label: t(locale, 'nav.articles') },
+  { href: localePath(locale, locale === 'pt-br' ? '/projetos' : '/projects'), label: t(locale, 'nav.projects') },
+];
+
+// Determina a rota ativa comparando com o pathname atual
+const pathname = currentPath;
+---
+
+<header
+  class="sticky top-0 z-50 w-full border-b border-white/10
+         bg-white/70 dark:bg-slate-900/70
+         backdrop-blur-xl backdrop-saturate-150"
+>
+  <div class="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 py-3">
+
+    <!-- Logotipo / nome -->
+    <a
+      href={localePath(locale, '/')}
+      class="text-sm font-semibold tracking-tight text-slate-900 dark:text-slate-100
+             hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+    >
+      Gustavo Aguiar
+    </a>
+
+    <!-- Navegação principal -->
+    <nav aria-label="Navegação principal">
+      <ul class="flex items-center gap-1">
+        {navLinks.map(({ href, label }) => {
+          const isActive = pathname.startsWith(href) && (href !== localePath(locale, '/') || pathname === href || pathname === href + '/');
+          return (
+            <li>
+              <a
+                href={href}
+                class={`rounded-lg px-3 py-1.5 text-sm font-medium transition-colors
+                  ${isActive
+                    ? 'bg-emerald-500/10 text-emerald-700 dark:text-emerald-300'
+                    : 'text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 hover:bg-slate-100/70 dark:hover:bg-slate-800/70'
+                  }`}
+              >
+                {label}
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
+
+    <!-- Controles de tema e idioma -->
+    <div class="flex items-center gap-1">
+      <LangToggle
+        currentLocale={locale}
+        currentPath={currentPath}
+        label={t(locale, 'nav.langSwitch')}
+        client:load
+      />
+      <ThemeToggle
+        labelDark={t(locale, 'nav.darkMode')}
+        labelLight={t(locale, 'nav.lightMode')}
+        client:load
+      />
+    </div>
+  </div>
+</header>

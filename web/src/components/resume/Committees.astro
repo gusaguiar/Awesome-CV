@@ -1,0 +1,32 @@
+---
+import Section from '@/components/ui/Section.astro';
+import GlassCard from '@/components/ui/GlassCard.astro';
+import { t, type Locale } from '@/i18n/ui';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  resume: CollectionEntry<'resume'>['data'];
+  locale: Locale;
+}
+
+const { resume, locale } = Astro.props;
+---
+
+<Section title={t(locale, 'section.committees')} id="avaliacoes">
+  <div class="space-y-3">
+    {resume.committees.map((item) => (
+      <GlassCard hoverable id={item.id}>
+        <div class="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
+          <div class="min-w-0">
+            <p class="font-semibold text-slate-900 dark:text-slate-100">{item.title}</p>
+            <p class="text-sm text-emerald-600 dark:text-emerald-400">{item.position}</p>
+          </div>
+          <div class="flex items-center gap-3 text-xs text-slate-400 dark:text-slate-500 shrink-0">
+            <span>{item.location}</span>
+            <time class="font-mono">{item.date}</time>
+          </div>
+        </div>
+      </GlassCard>
+    ))}
+  </div>
+</Section>

@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+/* ── Design tokens ── */
+@theme {
+  --color-emerald-400: #34d399;
+  --color-emerald-500: #10b981;
+  --color-emerald-600: #059669;
+
+  --font-sans: "Source Sans 3", "Roboto", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, "Cascadia Code", "Fira Code", monospace;
+}
+
+/* ── Scroll suave ── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ── Anti-FOUC para dark mode (aplicado via script no <head>) ── */
+:root {
+  color-scheme: light dark;
+}
+
+/* ── Seleção de texto com cor primária ── */
+::selection {
+  background-color: rgb(16 185 129 / 0.25);
+  color: inherit;
+}
+
+/* ── Prose customizado para conteúdo Markdown ── */
+.prose {
+  --tw-prose-body: theme(colors.slate.700);
+  --tw-prose-headings: theme(colors.slate.900);
+  --tw-prose-links: theme(colors.emerald.600);
+  --tw-prose-code: theme(colors.emerald.700);
+  --tw-prose-pre-bg: theme(colors.slate.900);
+  max-width: 72ch;
+}
+
+.dark .prose {
+  --tw-prose-body: theme(colors.slate.300);
+  --tw-prose-headings: theme(colors.slate.100);
+  --tw-prose-links: theme(colors.emerald.400);
+  --tw-prose-code: theme(colors.emerald.300);
+  --tw-prose-pre-bg: theme(colors.slate.800);
+}
+
+/* ── Glassmorphism base ── */
+.glass {
+  background: rgb(255 255 255 / 0.5);
+  backdrop-filter: blur(20px) saturate(150%);
+  -webkit-backdrop-filter: blur(20px) saturate(150%);
+  border: 1px solid rgb(255 255 255 / 0.2);
+  box-shadow: 0 8px 32px rgb(0 0 0 / 0.08);
+}
+
+.dark .glass {
+  background: rgb(15 23 42 / 0.45);
+  border-color: rgb(255 255 255 / 0.08);
+  box-shadow: 0 8px 32px rgb(0 0 0 / 0.4);
+}
+
+/* ── Transições globais de tema ── */
+*,
+*::before,
+*::after {
+  transition-property: background-color, border-color, color;
+  transition-duration: 150ms;
+  transition-timing-function: ease;
+}
+
+/* Garante que as transições não interfiram em animações intencionais */
+.no-transition,
+.no-transition * {
+  transition: none !important;
+}

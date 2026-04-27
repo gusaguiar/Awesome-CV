@@ -1,0 +1,34 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/resume/Hero.astro';
+import Summary from '@/components/resume/Summary.astro';
+import Experience from '@/components/resume/Experience.astro';
+import Education from '@/components/resume/Education.astro';
+import Certifications from '@/components/resume/Certifications.astro';
+import Honors from '@/components/resume/Honors.astro';
+import Committees from '@/components/resume/Committees.astro';
+import Extracurricular from '@/components/resume/Extracurricular.astro';
+import { getEntry } from 'astro:content';
+
+const locale = 'pt-br' as const;
+const resumeEntry = await getEntry('resume', 'pt-br');
+const resume = resumeEntry.data;
+---
+
+<BaseLayout
+  title="Currículo"
+  description="Gustavo Aguiar, M.Sc. — Cientista de Dados Sênior, Engenheiro de Machine Learning e AI Specialist com foco em transformar dados em produtos de impacto real."
+  locale={locale}
+>
+  <Hero resume={resume} locale={locale} pdfHref="/resume.pdf" />
+
+  <div class="mt-12 space-y-16">
+    <Summary resume={resume} locale={locale} />
+    <Experience resume={resume} locale={locale} />
+    <Education resume={resume} locale={locale} />
+    <Certifications resume={resume} locale={locale} />
+    <Honors resume={resume} locale={locale} />
+    <Committees resume={resume} locale={locale} />
+    <Extracurricular resume={resume} locale={locale} />
+  </div>
+</BaseLayout>
