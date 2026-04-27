@@ -1,0 +1,37 @@
+Sobre:
+
+Specialist Data Scientist & ML Engineer - Busco transformar dados em produtos que tenham impactos reais, em especial em ganhos de agilidade em processos de negócio. Atuo desde planejando e desenhando soluções para projetos, quanto desenvolvendo produtos em ciência de dados e engenharia de machine learning e orientando profissionais nessa área.
+
+🚀 O que tenho feito:
+
+1. Governo do Estado do Espírito Santo (SEGER, SESA, SEDU, SEJUS, SESP, SECONT, Polícia Civil, DETRAN-ES) e Rio de Janeiro (SEPOL-RJ e DETRAN-RJ)
+
+- Desenhei e implementei Data Lakehouses para usando Cloudera Data Platform (HDFS e Impala) + PySpark + Airflow. Hoje são milhares de fontes de dados ligadas a Contratos, Convênios, Saúde, Educação, Ocorrências Policiais e etc... dentro dos Lakes e disponíveis para nossa equipe utilizar e as equipes de nossos clientes também. Fazemos o monitoramento dos pipelines temos alertas sobre falhas em processos de atualização.
+
+- Entreguei camadas de BI em SAS Viya e modelos de IA com MLflow/Viya (identificação de anomalias em preços de passagens, classificadores de documentos judiciais, extração de entidades de contratos, avisos de licitações, mandados judiciais e outros tipos de documentos, modelos de forecasting para consumo de energia e água).
+- Construí ferramenta de investigação e análise de rede para identificar indícios de fraude em abastecimentos e manutenções da frota do estado.
+- Entreguei agentes com RAG para a área de suprimentos e para a assessoria jurídica da Secretaria Estadual de Administração, além de um agente para consulta em dados estruturados da Secretaria Estadual de Saúde.
+- Implementei módulo de conversão de PDFs para texto usando Fitz e TesseractOCR.
+
+- Criei aplicações de dados em Kubernetes (Rancher) com Python + Node/React e integrando com o Cloudera Data Platform + SAS Viya via APIs REST.
+
+2. Grupo Eletrobras
+
+- Construí um Data Mart jurídico em SAS Viya para Furnas, Chesf, CGT Eletrosul e Eletronorte.
+
+- Orquestrei pipelines de ingestão e atualização que alimentam + 15 dashboards gerencias e operacionais.
+
+- Modelei previsões de volume de processos, probabilidade de desfecho desfavorável e identificação de encerramento para reduzir o passivo judicial.
+
+3. Ambev Tech (Jurídico)
+
+- Desenvolvi agentes inteligentes com Python, LLMs (GPT-4o/GPT-4o-mini) e OCR para o departamento Jurídico, integrados ao framework interno Asimov Foundation em Azure.
+- Orquestrei fluxos assíncronos com Azure Service Bus e expus APIs REST versionadas com observabilidade, CI/CD e governança de dados (PostgreSQL e Azure Blob Storage).
+
+4. Óleo & Gás (Petrobras, Constellation, Transocean)
+
+- Desenvolvi simulador do equipamento BOP, um ambiente BI para análise de dados de sensores (+100 tags) e sistema para alertas de anomalias baseados em CBM.
+
+Ferramentas: Cloudera DP | HDFS | Impala | PySpark | Airflow | SAS Viya | LLM | MLflow | Docker/Kubernetes (Rancher) | AWS | Azure | Python | Power BI | Node.js | React | MLOps | Digital Twin | Computer Vision | NLP | Spacy | NLTK | PostgreSQL | OCR (Tesseract)
+
+gustavoj.m.aguiar@outlook.com | +55 22 99278-4262

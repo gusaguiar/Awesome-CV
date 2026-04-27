@@ -1,0 +1,16 @@
+Profile summary:
+I am a Specialist Data Scientist & ML Engineer. I turn data into products that accelerate business processes, from solution design to production operation. I lead squads, provide technical mentoring, and work end-to-end across architecture, engineering, modelling and MLOps. Although I currently lead a team, I am perfectly comfortable being an individual contributor when working with a different stack.
+
+Key achievements:
+- In the public sector (states of Espírito Santo and Rio de Janeiro) I implemented Data Lakehouses on Cloudera DP (HDFS/Impala) with PySpark and Airflow, and delivered AI/BI in SAS Viya for anomaly detection in public-purchase prices, investigative workbenches, executive cockpits, NLP for entity extraction and document classification, and forecasting for public accounts. I also built a network investigation tool for fraud indicators in fleet fueling and maintenance, developed water and energy consumption forecasting, delivered RAG agents for procurement and legal advisory units, built an AI agent for querying a health data lake, and implemented a PDF-to-text module with Fitz and TesseractOCR.
+
+- At Ambev Tech I delivered intelligent agents for the Legal department using Python, LLMs (GPT-4o/GPT-4o-mini), and OCR, integrated with the Asimov Foundation framework on Azure, orchestrated via Azure Service Bus, and exposed as versioned REST APIs with observability, CI/CD, and governance (PostgreSQL and Azure Blob Storage).
+
+- For the Eletrobras Group I built a legal Data Mart in SAS Viya, more than fifteen managerial dashboards and risk-assessment models (risk and document classifiers, case-volume projections).
+
+- In Oil & Gas (Petrobras/Constellation) I developed a BOP Digital Twin, BI over 100+ sensors and a CBM-based alerting system.
+
+Core stack:
+Cloudera DP, PySpark, Airflow, SAS Viya, MLflow, Docker & Kubernetes (Rancher), AWS, Azure, PostgreSQL, Python, Node/React, LLM/GenAI, Computer Vision, NLP (spaCy, NLTK), OCR (Tesseract).
+
+Advanced English: not part of my daily routine, but I communicate fluently.

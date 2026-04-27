@@ -1,0 +1,356 @@
+GUSTAVO AGUIAR, M.Sc.
+Cientista de Dados Sênior | Engenheiro de Machine Learning | AI Specialist | Arquiteto de Soluções | IA | NLP | MLOps | Visão Computacional
+
+INFORMAÇÕES DE CONTATO
+E-mail: gustavoj.m.aguiar@outlook.com
+Telefone: +55 22 99278-4262
+LinkedIn: linkedin.com/in/gjmaguiar
+ResearchGate: researchgate.net/profile/Gustavo_Aguiar4
+Lattes: lattes.cnpq.br/1848857688296947
+ORCID: orcid.org/0000-0002-0538-0845
+Local: Rio de Janeiro, Brasil
+
+================================================================================
+SOBRE
+================================================================================
+
+Senior Data Scientist & ML Engineer - Busco transformar dados em produtos que tenham impactos reais, em especial em ganhos de agilidade em processos de negócio. Atuo desde planejando e desenhando soluções para projetos, quanto desenvolvendo produtos em ciência de dados e engenharia de machine learning e orientando profissionais nessa área.
+
+PRINCIPAIS REALIZAÇÕES:
+
+GOVERNO (Espírito Santo e Rio de Janeiro):
+• Desenhei e implementei Data Lakehouses usando Cloudera Data Platform (HDFS e Impala) + PySpark + Airflow para milhares de fontes de dados
+• Entreguei camadas de BI em SAS Viya e modelos de IA com MLflow/Viya (identificação de anomalias em preços, classificadores de documentos, extração de entidades, forecasting)
+• Criei aplicações de dados em Kubernetes (Rancher) com Python + Node/React integrando com Cloudera + SAS Viya via APIs REST
+
+GRUPO ELETROBRAS:
+• Construí Data Mart jurídico em SAS Viya para Furnas, Chesf, CGT Eletrosul e Eletronorte
+• Orquestrei pipelines de ingestão alimentando +15 dashboards gerenciais e operacionais
+• Modelei previsões de volume de processos e probabilidade de desfecho para reduzir passivo judicial
+
+ÓLEO & GÁS (Petrobras, Constellation, Transocean):
+• Desenvolvi simulador do equipamento BOP, ambiente BI para análise de dados de sensores (+100 tags) e sistema para alertas de anomalias baseados em CBM
+
+================================================================================
+EXPERIÊNCIA PROFISSIONAL
+================================================================================
+
+CIENTISTA DE DADOS SÊNIOR
+Vert Analytics | Julho 2022 - Presente (3 anos 1 mês)
+Brasília, DF, Brasil | Tempo integral
+
+• Desenvolvi pipelines de dados e processos ETL automatizados, capacitando dashboards com informações atualizadas e facilitando construção/execução de modelos de ML
+• Projetei diversos modelos de aprendizado de máquina para painéis analíticos (detecção de encerramento de processos jurídicos via NLP, projeção de volume de processos, classificação baseada em conteúdo textual)
+• Gerenciei deploy e operacionalização de modelos de ML, garantindo plena funcionalidade
+• Funcionei como mentor para colegas de equipe, guiando desenvolvimento de modelos de ML e pipelines de dados
+• Como Líder e Responsável Técnico, gerencio planejamento e execução das principais atividades da equipe
+• Desenvolvi arquitetura de dados no Airflow com PySpark e SAS Compute, otimizando organização e acesso aos dados
+• Construí pipelines de dados e processos ETL automatizados para atualização constante das fontes em todas as camadas de Data Lake (Bronze, Silver, Gold) e Data Warehouse
+• Orientei adoção de práticas de versionamento de código e CI/CD
+• Responsável pela definição da arquitetura da solução analítica
+
+CIENTISTA DE DADOS PLENO
+Vert Analytics | Fevereiro 2022 - Junho 2022 (5 meses)
+
+• Implementação de pipelines de dados e processos ETL para coleta, processamento e análise de dados
+• Desenvolvimento de modelos de Machine Learning em NLP para Reconhecimento de Entidade Nomeada (NER)
+• Projeto e implementação de processos automáticos para detecção de fraudes através de múltiplas fontes de dados
+• Construção de dashboards para visão clara dos dados e auxílio na tomada de decisão durante auditorias
+
+MASTER RESEARCHER FELLOW
+Universidade Federal Fluminense | Junho 2023 - Março 2024 (10 meses)
+Rio de Janeiro, Brasil | Remoto | Meio período
+
+CIENTISTA DE DADOS PLENO
+Laboratório de Estudos Avançados em Operações Responsivas e Otimização | Dezembro 2020 - Março 2023 (2 anos 4 meses)
+Rio das Ostras, RJ, Brasil | Presencial
+
+• Construí relatórios de inteligência sobre falhas de equipamentos Blowout Preventer
+• Realizei processos ETL e mineração de dados/análise de texto para apoiar decisões do projeto
+• Construí espaço de inteligência empresarial BOP Data Universe reunindo bancos de dados de empresas parceiras (Petrobras e Transocean)
+• Mantive e atualizei painéis de inteligência utilizados nas atividades do projeto
+• Construí modelo físico virtual de alta fidelidade para equipamentos BOP usando Matlab/Simulink
+
+CIENTISTA DE DADOS JUNIOR
+Laboratório de Estudos Avançados em Operações Responsivas e Otimização | Setembro 2018 - Dezembro 2020 (2 anos 4 meses)
+Rio das Ostras, Rio de Janeiro, Brasil
+
+• Desenvolvi mineração de texto em registros de falha do equipamento Blowout Preventer para melhorar compreensão de atividades de manutenção e modos de falhas
+
+ANALISTA DE PLANEJAMENTO ESTRATÉGICO
+Laboratório de Empreendimentos Inovadores | Janeiro 2019 - Junho 2020 (1 ano 6 meses)
+Rio das Ostras, Rio de Janeiro | Meio período
+
+• Construí novo planejamento estratégico da ANTT para 2020-2030
+• Processei dados de entrevistas com diretores da ANTT e stakeholders principais
+• Realizei entrevistas com superintendentes e gerentes para entender fluxo de tomada de decisões
+• Atualizei direcionadores estratégicos, redefinindo mapa estratégico
+• Defini indicadores estratégicos e construí painéis de inteligência para monitoramento
+
+RESEARCH FELLOW
+Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do Rio de Janeiro (FAPERJ) | Maio 2017 - Maio 2018 (1 ano 1 mês)
+Rio das Ostras, Rio de Janeiro
+
+• Estudo da Análise de Fourier como ferramenta para solução de EDPs
+• Aplicação da teoria na solução dos principais modelos de Equações Diferenciais Parciais
+• Resolução da equação de Black-Scholes para precificação de opções no mercado europeu
+
+================================================================================
+FORMAÇÃO ACADÊMICA
+================================================================================
+
+MASTER OF BUSINESS ADMINISTRATION (MBA) - DATA SCIENCE & ANALYTICS
+Universidade de São Paulo | Junho 2025 - Dezembro 2026
+
+Formação aplicada em Data Science & Analytics com três frentes integradas:
+• Engenharia de ML: criação de pipelines ponta-a-ponta com MLOps, versionamento, CI/CD, Docker, Kubernetes, APIs REST e microserviços em AWS/GCP/Azure
+• Ciência de Dados: EDA avançada com pandas/NumPy, estatística inferencial, regressão, classificação, clustering, NLP, séries temporais
+• Engenharia de Dados: modelagem relacional e analítica, arquiteturas Data Lakehouse e DW, processamento distribuído com Spark, Hadoop e Kafka
+
+MESTRADO EM ENGENHARIA DE PRODUÇÃO E SISTEMAS COMPUTACIONAIS
+Universidade Federal Fluminense | Abril 2021 - Abril 2024
+
+Concentração: Implantação, Gestão e Avaliação de Sistemas de Produção
+Orientadores: D.Sc. Eng. Ramon Baptista Narcizo e D.Sc. Eng. Rodolfo Cardoso
+Matérias: Sistemas de Produção e Operações, Modelagem de Sistemas de Software, Modelagem de Processos, Auxílio Multicritério à Decisão, Gestão Sistêmica da Confiabilidade e Mantenabilidade, Inteligência Artificial
+
+AWS MACHINE LEARNING ENGINEER
+Udacity | Outubro 2022 - Fevereiro 2023
+
+• Análise de dados e feature engineering usando Data Wrangler e Pandas em SageMaker Studio
+• Design, treinamento, avaliação e tuning de hiperparâmetros para modelos de regressão e classificação
+• Treinamento e otimização de modelos lineares, tree-based, XGBoost e AutoGluon
+• Deploy de modelos como endpoints para inferência em dados ao vivo
+• Construção e treinamento de redes neurais para classificação de imagens e texto
+• Fine-tuning de modelos pré-treinados (ResNet, MXNet, BERT)
+• Utilização de serviços AWS (Lambda, Step Functions, Model Monitor, Feature Store)
+
+DATA SCIENTIST
+Udacity | Setembro 2021 - Janeiro 2022
+
+• Solução de problemas de Data Science e construção de visualizações efetivas
+• Desenvolvimento de habilidades de engenharia de software (testes unitários, classes)
+• Engenharia de dados através de todo processo de data science
+• Design de experimentos e análise de resultados de testes A/B
+• Construção de sistemas de recomendação
+
+BACHARELADO EM ENGENHARIA DE PRODUÇÃO
+Universidade Federal Fluminense | 2015 - 2020
+
+Projeto Final: Knowledge building on Blowout Preventers failure records using Latent Semantic Analysis
+
+================================================================================
+AVALIAÇÕES E RECOMENDAÇÕES
+================================================================================
+
+VANESSA SILVA - Tech Recruiter | Talent Acquisition | Business Partner
+"Tive a satisfação de participar do processo seletivo do Gustavo. Sempre me ajudou tecnicamente, seja nas dúvidas, quanto nos processos seletivos. Atencioso, educado, didático, prestativo. Sendo referência para outros colaboradores dentro da Vert."
+
+ATILAS RODRIGUES LAMBERTI - Java | Python | Node JS | Angular | SQL | BI | Power BI | SAS
+"Gustavo é um profissional altamente competente e dedicado, sempre disposto a ajudar os colegas. Possui um domínio impressionante em ciência de dados, além de ser pró-ativo e colaborativo, o que faz dele uma peça chave em qualquer equipe."
+
+THIAGO WARTON TEIXEIRA MONTEIRO - Analista de BI Junior
+"Trabalhar com o Gustavo ao longo desses quase dois anos tem sido uma experiência extremamente valiosa. Com sua orientação, adquiri conhecimentos importantes em Git, SAS Viya, BI, SQL, entre outros. A maneira didática com que compartilha seu conhecimento torna até os conceitos mais complexos acessíveis."
+
+BERNARDO GUIMARÃES - Delivery Manager | Gerente de Projetos | Scrum Master
+"Gustavo é um profissional muito talentoso. Pude testemunhar sua habilidade em desenvolver soluções inovadoras e estratégicas em projetos complexos. Além de sua competência técnica, se destaca pela facilidade em transmitir conceitos avançados de maneira compreensível."
+
+LUÍZA ANGELO LOVO - Engenheira de Computação | Analista de Dados
+"É um privilégio recomendar Gustavo como um profissional altamente competente. É um líder nato, capaz de orientar equipes com eficiência, especialista em SAS, dominando ferramentas essenciais para análise de dados e relatórios avançados."
+
+JEFFERSON SILVEIRA - Business Intelligence & Analytics | Power BI | Tableau | SAS
+"Gustavo se destaca de forma excepcional em sua área. É uma referência em nossa equipe e visto por todos como um líder natural. Sua competência técnica é notável, e constantemente demonstra inteligência e capacidade de resolver problemas complexos."
+
+GIOVANNI SENCIOLES - Data scientist | SAS, Python, SQL
+"Gustavo não só é uma referência na área de ciência de dados, como também um excelente colega de trabalho. Sempre propondo novas ideias para facilitar o fluxo de trabalho, auxiliando com documentações muito bem elaboradas e explicativas."
+
+MATHEUS MELOTTI - Senior Data Scientist | Machine Learning Engineer
+"Gustavo exerceu função de Cientista de Dados Sênior em nossa equipe durante projeto da Eletrobrás. Sua expertise em IA não apenas acelerou nossos projetos, mas transformou a maneira como abordamos desafios de negócio. É incrivelmente competente em várias linguagens de programação."
+
+================================================================================
+CERTIFICAÇÕES
+================================================================================
+
+CERTIFICAÇÕES ENAP (2025):
+• Administration of Government Cloud Services (Código: vmke17466597kt24)
+• Governo Data-Driven: Transformação Orientada por Dados em Governos (Código: Ejue17466614Oij6)
+• Transformação Digital no Serviço Público (Código: YJGF17624231sAF0)
+• UX: Como Melhorar a Experiência do Usuário no Serviço Público Digital (Código: ATsR174663307WIL)
+
+CERTIFICAÇÕES SAS (2024):
+• SAS Programming 3: Advanced Techniques (Código: 9ef9f6f4-cd7b-4930-8f19-ec9b7835a10d)
+• SAS Viya Operations (Código: 9e42d53a-f2cc-4d29-a4a8-dd9187c786e2)
+• Self-Service Data Preparation in SAS Viya (Código: 718a1cb6-f3bc-46ac-8c49-06c89ceaf76c)
+• SAS Macro Language 1: Essentials (Código: 30559a6a-6728-406a-b2bd-3fb6aa561db2)
+• SAS Programming 1: Essentials (Código: 8b49a64c-d499-4404-9fc8-cf570e37ff55)
+• SAS Programming 2: Data Manipulation Techniques (Código: 07fa7179-1156-43a4-afb9-7346c7b56a87)
+• SAS Viya and Python Integration Fundamentals (Código: cfe03fea-cf0d-47aa-b00d-32cc8152df7a)
+
+CERTIFICAÇÕES SAS (2025):
+• ModelOps: Governing AI and Machine Learning Models That Drive Your Business with SAS
+
+CERTIFICAÇÕES SAS (2023):
+• Managing Models in SAS Viya (Código: 4f6094bf-b70e-4818-85e0-c5a7755bb8ba)
+• Building SAS Studio Flows in SAS Viya (Código: c8acbae0-f6d5-4685-9320-fbc5be0b5666)
+• Efficiency Tips for Database Programming in SAS (Código: 6dc2459e-05f0-4e1f-960d-e4600eadd544)
+• High-Performance Data Processing with CASL in SAS Viya (Código: 9752e441-17ef-475c-864d-3b9f95c50c3e)
+• SAS Data Governance Essentials (Código: e8ac284b-e571-4a24-bfca-f34237efb9a4)
+• SAS Visual Analytics 1 for SAS Viya: Basics (Código: 25b97b0d-ef84-4ae0-b0ca-18a87e588380)
+• SAS Visual Analytics 2 for SAS Viya: Advanced (Código: 25b97b0d-ef84-4ae0-b0ca-18a87e588380)
+• SAS Visual Investigator: Analysis and Investigation (Código: f4b5508a-6df2-4416-b778-93729e369f09)
+• SAS Visual Investigator: Building an Interface (Código: 7987cd9c-0222-476b-8cc1-1dc93610e0de)
+• Using SAS to Put Open Source Models into Production (Código: fb5edcde-8935-4be1-8569-7a9759c2a10b)
+• Visual Investigator: Core Concepts in Viya 3.5
+
+UDACITY:
+• AWS Machine Learning Engineer (Fevereiro 2023)
+• Cientista de Dados (Janeiro 2022)
+
+CERTIFICAÇÕES SAS (2022):
+• Machine Learning Using SAS Viya (Código: bbbeca5a-5873-4383-8304-9fd0afbd1a6c)
+• SAS Viya Overview (Código: 7f79f60b-a36e-444d-b1c8-f49b435e6fc0)
+• Programming for SAS Viya (3.5) (Código: 244111e0-36da-4638-8a78-73ff2d635900)
+• SAS Visual Data Mining and Machine Learning on SAS Viya (Código: b2a0f76f-0bd6-46c7-a0ae-7415519d5295)
+• Working with SAS Viya Jobs (Código: e5b06794-1c72-4cc6-803d-1c85f0d0151d)
+• SAS Visual Text Analytics in SAS Viya (Código: db32afc3-914a-4940-8df7-51d40a9cad20)
+
+OUTRAS CERTIFICAÇÕES:
+• Certified Peer Reviewer - Elsevier (Junho 2023)
+• Certificado Planejamento Estratégico - G4 Educação (Março 2024)
+• Certificate of Achievement (With Honors) - Fundação Richard Hugh Fisk (Julho 2018)
+
+ALURA (2021):
+• Machine Learning: Introdução a classificação com SKLearn
+• Python para Data Science: Funções, Pacotes e Pandas básico
+• SQL Server: Consultas avançadas com Microsoft SQL Server 2017
+• SQL Server: Introdução ao SQL com Microsoft SQL Server 2017
+• SQL Server: Manipulação de dados com Microsoft SQL Server 2017
+• DAX e ETL com Power BI: Carregando dados
+• Dashboard com Power BI: Construindo relatórios
+• Data analysis: introdução a séries temporais e análises
+• Formação Power BI
+• Power BI Desktop: Carregue, analise e visualize dados
+• Python Scikit-Learn: regressão, classificação e clustering
+• Python para Data Science: Introdução à linguagem e Numpy
+• Python para Data Science: Primeiros passos
+
+GRUPO VOITTO (2018):
+• Especialistas em Dashboard de Gestão
+• Formação Master em MS Excel - 2.0
+• Fundamentos Essenciais para Consultores
+• VBA Aplicado a Negócios
+
+OUTROS:
+• Curso de curta duração em Modelagem de Processos - Bizagi (Janeiro 2019)
+
+================================================================================
+COMPETÊNCIAS TÉCNICAS
+================================================================================
+
+LINGUAGENS DE PROGRAMAÇÃO:
+• Python (Avançado)
+• R (Avançado)
+• SAS (Especialista)
+• SQL (Avançado)
+• Matlab (Intermediário)
+• VBA (Intermediário)
+
+MACHINE LEARNING E IA:
+• Machine Learning (Avançado)
+• Deep Learning
+• MLOps (Avançado)
+• Processamento de Linguagem Natural (NLP)
+• Visão Computacional
+• Inteligência Artificial
+
+PLATAFORMAS E FERRAMENTAS DE DADOS:
+• SAS Viya (Especialista)
+• AWS (SageMaker, Lambda, S3, CloudWatch)
+• Cloudera Data Platform
+• Apache Spark
+• Apache Airflow
+• Hadoop
+• Jupyter Notebook
+• Power BI
+• Tableau
+
+BANCOS DE DADOS:
+• Microsoft SQL Server
+• MySQL
+• MongoDB
+• Impala
+• HDFS
+
+DEVOPS E INFRAESTRUTURA:
+• Docker
+• Kubernetes
+• CI/CD
+• Git
+• Rancher
+
+ENGENHARIA DE DADOS:
+• ETL/ELT
+• Data Lake
+• Data Warehouse
+• Big Data
+• Governança de Dados
+• Arquitetura de Dados
+
+DESENVOLVIMENTO:
+• Node.js
+• React
+• APIs REST
+• Microserviços
+
+OUTRAS COMPETÊNCIAS:
+• Gestão de Projetos
+• Liderança de Equipes
+• Planejamento Estratégico
+• UX/UI Design
+• Growth Hacking
+• Balanced Scorecard
+
+================================================================================
+PRÊMIOS E RECONHECIMENTOS
+================================================================================
+
+PRÊMIO LÁUREA ACADÊMICA - 2020
+Universidade Federal Fluminense | Janeiro 2023
+
+Distinção concedida em reconhecimento ao mérito de estudantes de graduação da UFF, que visa à valorização do corpo discente, reconhecendo dedicação, envolvimento e desempenho nas atividades acadêmicas. A Láurea Acadêmica é um título excepcional que contempla estudantes que se destacaram ao longo de seu percurso acadêmico.
+
+MEDALHA DE BRONZE NA OLIMPÍADA BRASILEIRA DE INFORMÁTICA
+Unicamp | Janeiro 2011
+
+A Olimpíada Brasileira de Informática (OBI) é uma competição prestigiosa organizada pela Sociedade Brasileira de Computação (SBC), sendo uma das notáveis Olimpíadas Científicas do Brasil. A OBI é de suma importância para promover habilidades tecnológicas e computacionais entre jovens aprendizes, fornecendo plataforma para estudantes mostrarem suas habilidades em ambiente competitivo.
+
+================================================================================
+TRABALHO VOLUNTÁRIO
+================================================================================
+
+VICE-DIRETOR DO CENTRO ACADÊMICO DE ENGENHARIA DE PRODUÇÃO
+Universidade Federal Fluminense | Março 2018 - Março 2019 (1 ano 1 mês)
+Área: Educação
+
+
+ORGANIZAÇÃO DE EVENTOS
+Universidade Federal Fluminense | Janeiro 2018
+
+• II Semana de Engenharia - Agenda Acadêmica da UFF
+• Projeto Ciência sob Tendas: Centro de ciências itinerante da UFF que visa contribuir para alfabetização científica através de atividades lúdicas, criativas e interativas
+
+ATIVIDADES EM COMISSÕES:
+• Membro da Comissão de Avaliação para indicação ao VII Prêmio de Excelência em Docência do Instituto de Ciência e Tecnologia (Janeiro 2018)
+• Membro da Comissão Eleitoral para Diretor e Vice-Diretor do ICT/Rio das Ostras (Janeiro 2019)
+
+================================================================================
+IDIOMAS
+================================================================================
+
+• INGLÊS: Nível Avançado
+• ESPANHOL: Nível Intermediário
+• PORTUGUÊS: Nativo
+
+================================================================================
+
+Stack Principal: Cloudera DP | HDFS | Impala | PySpark | Airflow | SAS Viya | LLM | MLflow | Docker/Kubernetes (Rancher) | AWS | Python | Power BI | Node.js | React | MLOps | Digital Twin | Computer Vision | NLP | Spacy | NLTK 

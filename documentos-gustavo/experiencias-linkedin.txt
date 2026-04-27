@@ -1,0 +1,104 @@
+
+Vert Integradora de TI
+Vert Integradora de TI
+Tempo integral · 3 a 6 mTempo integral · 3 a 6 m
+Brasília, Distrito Federal, BrasilBrasília, Distrito Federal, Brasil
+ me ajudou a conseguir esse empregoO LinkedIn me ajudou a conseguir esse emprego
+Cientista de Dados Sênior
+Cientista de Dados Sênior
+jul de 2022 - o momento · 3 anos 1 mêsDe jul de 2022 até o momento · 3 anos 1 mês
+• Desenvolvi pipelines de dados e processos ETL automatizados, capacitando dashboards com informações atualizadas e facilitando a construção e execução de modelos de aprendizado de máquina.
+• Projetando diversos modelos de aprendizado de máquina, aprimorei os painéis analíticos, com recursos como detecção do encerramento de processos jurídicos via NLP, projeção do volume de processos e classificação de processos baseada no conteúdo textual, entre outros modelos.
+• Gerenciei o deploy e a operacionalização dos modelos de aprendizado de máquina, garantindo a sua plena funcionalidade.
+• Projetando e construindo dashboards de inteligência jurídica, facilitei a tomada de decisões estratégicas baseadas em dados.
+• Funcionei como mentor para colegas de equipe, guiando-os no desenvolvimento de modelos de aprendizado de máquina e pipelines de dados.
+• No papel de Líder e Responsável Técnico, gerencio o planejamento e execução das principais atividades da equipe.
+• Promovi reuniões regulares para acompanhamento, esclarecimento de dúvidas e fomento da colaboração dentro da equipe.
+• Desenvolvi a arquitetura de dados no Airflow com PySpark e também com o SAS Compute, otimizando a organização e acesso aos dados.
+• Construí pipelines de dados e processos ETL automatizados para atualização constante das fontes de dados em todas as camadas de um Data Lake (Bronze, Silver e Gold) [Cloudera HDFS] e também no Data Warehouse [Impala].
+• Orientei a adoção de práticas de versionamento de código e integração contínua / entrega contínua (CI/CD).
+• Responsável pela definição da arquitetura da solução analítica, orientando as decisões técnicas principais do projeto.
+• Projetei dashboards para a auditoria da folha de pagamento, aumentei a transparência e eficácia do processo.• Desenvolvi pipelines de dados e processos ETL automatizados, capacitando dashboards com informações atualizadas e facilitando a construção e execução de modelos de aprendizado de máquina. • Projetando diversos modelos de aprendizado de máquina, aprimorei os painéis analíticos, com recursos como detecção do encerramento de processos jurídicos via NLP, projeção do volume de processos e classificação de processos baseada no conteúdo textual, entre outros modelos. • Gerenciei o deploy e a operacionalização dos modelos de aprendizado de máquina, garantindo a sua plena funcionalidade. • Projetando e construindo dashboards de inteligência jurídica, facilitei a tomada de decisões estratégicas baseadas em dados. • Funcionei como mentor para colegas de equipe, guiando-os no desenvolvimento de modelos de aprendizado de máquina e pipelines de dados. • No papel de Líder e Responsável Técnico, gerencio o planejamento e execução das principais atividades da equipe. • Promovi reuniões regulares para acompanhamento, esclarecimento de dúvidas e fomento da colaboração dentro da equipe. • Desenvolvi a arquitetura de dados no Airflow com PySpark e também com o SAS Compute, otimizando a organização e acesso aos dados. • Construí pipelines de dados e processos ETL automatizados para atualização constante das fontes de dados em todas as camadas de um Data Lake (Bronze, Silver e Gold) [Cloudera HDFS] e também no Data Warehouse [Impala]. • Orientei a adoção de práticas de versionamento de código e integração contínua / entrega contínua (CI/CD). • Responsável pela definição da arquitetura da solução analítica, orientando as decisões técnicas principais do projeto. • Projetei dashboards para a auditoria da folha de pagamento, aumentei a transparência e eficácia do processo.
+Análise de dados, Microsoft SQL Server e mais 23 competências
+Cientista de Dados Pleno
+Cientista de Dados Pleno
+fev de 2022 - jun de 2022 · 5 mesesDe fev de 2022 até jun de 2022 · 5 meses
+Fiz parte da equipe de desenvolvimento de um projeto em Analytics e Business Intelligence (BI) com o objetivo de otimizar o processo de auditoria em um importante órgão de controle brasileiro. Minhas realizações incluem:
+
+• Implementação de pipelines de dados e processos ETL (Extract, Transform, Load) para coleta, processamento e análise de dados.
+
+• Desenvolvimento de modelos de Machine Learning, em Processamento de Linguagem Natural (NLP), para Reconhecimento de Entidade Nomeada (NER), resultando na identificação automática de entidades em documentos (por exemplo, editais de licitações).
+
+• Projeto e implementação de processos automáticos para detecção de fraudes através da verificação de várias fontes de dados, auxiliando na prevenção de atividades fraudulentas.
+
+• Construção de dashboards para apresentar uma visão clara dos dados, essencial para orientar decisões estratégicas e auxiliar na tomada de decisão do cliente durante o processo de auditoria.Fiz parte da equipe de desenvolvimento de um projeto em Analytics e Business Intelligence (BI) com o objetivo de otimizar o processo de auditoria em um importante órgão de controle brasileiro. Minhas realizações incluem: • Implementação de pipelines de dados e processos ETL (Extract, Transform, Load) para coleta, processamento e análise de dados. • Desenvolvimento de modelos de Machine Learning, em Processamento de Linguagem Natural (NLP), para Reconhecimento de Entidade Nomeada (NER), resultando na identificação automática de entidades em documentos (por exemplo, editais de licitações). • Projeto e implementação de processos automáticos para detecção de fraudes através da verificação de várias fontes de dados, auxiliando na prevenção de atividades fraudulentas. • Construção de dashboards para apresentar uma visão clara dos dados, essencial para orientar decisões estratégicas e auxiliar na tomada de decisão do cliente durante o processo de auditoria.
+Análise de dados, Microsoft SQL Server e mais 23 competências
+Logo da empresa Universidade Federal Fluminense
+Master Researcher Fellow
+Master Researcher Fellow
+Universidade Federal Fluminense · Meio períodoUniversidade Federal Fluminense · Meio período
+jun de 2023 - mar de 2024 · 10 mesesDe jun de 2023 até mar de 2024 · 10 meses
+Rio de Janeiro, Brasil · RemotaRio de Janeiro, Brasil · Remota
+Logo da empresa Laboratório de Estudos Avançados em Operações Responsivas e Otimização
+Laboratório de Estudos Avançados em Operações Responsivas e Otimização
+Laboratório de Estudos Avançados em Operações Responsivas e Otimização
+Tempo integral · 4 a 7 mTempo integral · 4 a 7 m
+Cientista de Dados Pleno
+Cientista de Dados Pleno
+dez de 2020 - mar de 2023 · 2 anos 4 mesesDe dez de 2020 até mar de 2023 · 2 anos 4 meses
+Rio das Ostras, RJ, Brasil · PresencialRio das Ostras, RJ, Brasil · Presencial
+• Construir relatórios de inteligência sobre falhas de equipamentos Blowout Preventer. Ferramentas: Power BI, Python, ETL, IoT, Big Data, Clusterização, Machine Learning, Modelos Preditivos, Excel, SQL, MongoDB, Canva, User Experience.
+
+• Realizar processos ETL e conduzir mineração de dados e análise de texto para apoiar as decisões do projeto. Ferramentas: Python, Jupyter Notebook, SQL, R Studio.
+
+• Construir o espaço de inteligência empresarial BOP Data Universe que reúne bancos de dados de empresas parceiras, incluindo Petrobras e Transocean. Ferramentas: Power BI, Python, SQL, Jupyter Notebook, Excel.
+
+• Manter e atualizar os painéis de inteligência utilizados nas atividades do projeto. Ferramentas: Power BI, Python, Jupyter Notebook.
+
+• Construir um modelo físico virtual de alta fidelidade para equipamentos utilizados na fase de perfuração de poços submarinos conhecido como Blowout Preventer (BOP). Ferramentas: Matlab, Simulink, e toolboxes como Curve Fitting, Optimization, Simscape.• Construir relatórios de inteligência sobre falhas de equipamentos Blowout Preventer. Ferramentas: Power BI, Python, ETL, IoT, Big Data, Clusterização, Machine Learning, Modelos Preditivos, Excel, SQL, MongoDB, Canva, User Experience. • Realizar processos ETL e conduzir mineração de dados e análise de texto para apoiar as decisões do projeto. Ferramentas: Python, Jupyter Notebook, SQL, R Studio. • Construir o espaço de inteligência empresarial BOP Data Universe que reúne bancos de dados de empresas parceiras, incluindo Petrobras e Transocean. Ferramentas: Power BI, Python, SQL, Jupyter Notebook, Excel. • Manter e atualizar os painéis de inteligência utilizados nas atividades do projeto. Ferramentas: Power BI, Python, Jupyter Notebook. • Construir um modelo físico virtual de alta fidelidade para equipamentos utilizados na fase de perfuração de poços submarinos conhecido como Blowout Preventer (BOP). Ferramentas: Matlab, Simulink, e toolboxes como Curve Fitting, Optimization, Simscape.
+Análise de dados, Microsoft SQL Server e mais 19 competências
+Cientista de Dados Junior
+Cientista de Dados Junior
+set de 2018 - dez de 2020 · 2 anos 4 mesesDe set de 2018 até dez de 2020 · 2 anos 4 meses
+Rio das Ostras, Rio de Janeiro, BrasilRio das Ostras, Rio de Janeiro, Brasil
+• Construir relatórios de inteligência sobre falhas de equipamentos Blowout Preventer. Ferramentas: Power BI, Python, ETL, IoT, Big Data, Clusterização, Machine Learning, Modelos Preditivos, Excel, SQL, MongoDB, Canva, User Experience.
+
+• Realizar processos ETL e conduzir mineração de dados e análise de texto para apoiar as decisões do projeto. Ferramentas: Python, Jupyter Notebook, SQL, R Studio.
+
+• Construir o espaço de inteligência empresarial BOP Data Universe que reúne bancos de dados de empresas parceiras, incluindo Petrobras e Transocean. Ferramentas: Power BI, Python, SQL, Jupyter Notebook, Excel.
+
+• Manter e atualizar os painéis de inteligência utilizados nas atividades do projeto. Ferramentas: Power BI, Python, Jupyter Notebook.
+
+• Desenvolver mineração de texto em registros de falha do equipamento Blowout Preventer, visando melhorar a compreensão das atividades de manutenção e principais modos de falhas observados pela indústria. Ferramentas: Python, Jupyter Notebook, NLTK, Scikit-Learn, R Studio, Power BI e MS-Excel.• Construir relatórios de inteligência sobre falhas de equipamentos Blowout Preventer. Ferramentas: Power BI, Python, ETL, IoT, Big Data, Clusterização, Machine Learning, Modelos Preditivos, Excel, SQL, MongoDB, Canva, User Experience. • Realizar processos ETL e conduzir mineração de dados e análise de texto para apoiar as decisões do projeto. Ferramentas: Python, Jupyter Notebook, SQL, R Studio. • Construir o espaço de inteligência empresarial BOP Data Universe que reúne bancos de dados de empresas parceiras, incluindo Petrobras e Transocean. Ferramentas: Power BI, Python, SQL, Jupyter Notebook, Excel. • Manter e atualizar os painéis de inteligência utilizados nas atividades do projeto. Ferramentas: Power BI, Python, Jupyter Notebook. • Desenvolver mineração de texto em registros de falha do equipamento Blowout Preventer, visando melhorar a compreensão das atividades de manutenção e principais modos de falhas observados pela indústria. Ferramentas: Python, Jupyter Notebook, NLTK, Scikit-Learn, R Studio, Power BI e MS-Excel.
+Análise de dados, Microsoft SQL Server e mais 15 competências
+Logo da empresa Laboratório de Empreendimentos Inovadores
+Analista de planejamento estratégico
+Analista de planejamento estratégico
+Laboratório de Empreendimentos Inovadores · Meio períodoLaboratório de Empreendimentos Inovadores · Meio período
+jan de 2019 - jun de 2020 · 1 ano 6 mesesDe jan de 2019 até jun de 2020 · 1 ano 6 meses
+Rio das Ostras, Rio de JaneiroRio das Ostras, Rio de Janeiro
+• Construir novo planejamento estratégico da Agência Nacional de Transporte Terrestre (ANTT) para 2020-2030.
+
+• Processar dados de entrevistas com os diretores da ANTT e representantes das principais partes interessadas. Ferramentas: Excel, Python, Canva, LucidChart.
+
+• Realizar entrevistas com vários superintendentes e gerentes da agência procurando entender o funcionamento e o fluxo do processo de tomada de decisões e as atribuições de cada gerência e superintendência da organização.
+
+• Atualizar os direcionadores estratégicos, redefinindo o mapa estratégico.
+
+• Definir indicadores estratégicos, estabelecendo metas. Construir de painéis de inteligência para monitorar indicadores associados aos objetivos estratégicos e metas da agência. Ferramentas:
+Power BI, Python, SQL, Excel, Canva.• Construir novo planejamento estratégico da Agência Nacional de Transporte Terrestre (ANTT) para 2020-2030. • Processar dados de entrevistas com os diretores da ANTT e representantes das principais partes interessadas. Ferramentas: Excel, Python, Canva, LucidChart. • Realizar entrevistas com vários superintendentes e gerentes da agência procurando entender o funcionamento e o fluxo do processo de tomada de decisões e as atribuições de cada gerência e superintendência da organização. • Atualizar os direcionadores estratégicos, redefinindo o mapa estratégico. • Definir indicadores estratégicos, estabelecendo metas. Construir de painéis de inteligência para monitorar indicadores associados aos objetivos estratégicos e metas da agência. Ferramentas: Power BI, Python, SQL, Excel, Canva.
+Análise de dados, Python e mais 8 competências
+Planejamento Estratégico da Agência Nacional de Transportes Terrestres - ANTTPlanejamento Estratégico da Agência Nacional de Transportes Terrestres - ANTT
+Planejamento Estratégico é uma ferramenta de gestão que visa direcionar os trabalhos da ANTT para o alcance dos objetivos comuns, voltados ao cumprimento da nossa missão, buscando atingir a visão de futuro institucional. Tal ferramenta nos transmite, ainda, as diretrizes a serem seguidas pela instituição, para que nossas ações sejam executadas com responsabilidade, qualidade, imparcialidade e eficiência.Planejamento Estratégico é uma ferramenta de gestão que visa direcionar os trabalhos da ANTT para o alcance dos objetivos comuns, voltados ao cumprimento da nossa missão, buscando atingir a visão de futuro institucional. Tal ferramenta nos transmite, ainda, as diretrizes a serem seguidas pela instituição, para que nossas ações sejam executadas com responsabilidade, qualidade, imparcialidade e eficiência.
+Logo da empresa FAPERJ
+Research Fellow
+Research Fellow
+Fundacao Carlos Chagas Filho De Amparo A Pesquisa Do Estado Do Rio De Janeiro-FaperjFundacao Carlos Chagas Filho De Amparo A Pesquisa Do Estado Do Rio De Janeiro-Faperj
+mai de 2017 - mai de 2018 · 1 ano 1 mêsDe mai de 2017 até mai de 2018 · 1 ano 1 mês
+Rio das Ostras, Rio de JaneiroRio das Ostras, Rio de Janeiro
+• A pesquisa teve como objetivo principal um estudo geral da Análise de Fourier como uma ferramenta para a solução de EDPs.
+
+• Foram estudadas a Série Fourier e a Transformada de Fourier e esta teoria foi aplicada na solução dos principais modelos de Equações Diferenciais Parciais conhecidas: calor, equações de onda e de Laplace.
+
+• Foi possível resolver a conhecida equação de Black-Scholes para a precificação de opções de preços no mercado europeu• A pesquisa teve como objetivo principal um estudo geral da Análise de Fourier como uma ferramenta para a solução de EDPs. • Foram estudadas a Série Fourier e a Transformada de Fourier e esta teoria foi aplicada na solução dos principais modelos de Equações Diferenciais Parciais conhecidas: calor, equações de onda e de Laplace. • Foi possível resolver a conhecida equação de Black-Scholes para a precificação de opções de preços no mercado europeu
+Modelagem matemática e Análise matemática
