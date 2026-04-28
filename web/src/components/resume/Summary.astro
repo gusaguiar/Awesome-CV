@@ -14,12 +14,19 @@ const { resume, locale } = Astro.props;
 
 <Section title={t(locale, 'section.about')} id="sobre">
   <GlassCard>
-    <p class="mb-6 text-base leading-relaxed text-slate-700 dark:text-slate-300">
+    <p class="text-base leading-relaxed text-slate-700 dark:text-slate-300">
       {resume.summary}
     </p>
 
+    {resume.summaryParagraphs && resume.summaryParagraphs.length > 0 && resume.summaryParagraphs.map((paragraph) => (
+      <p class="mt-3 text-base leading-relaxed text-slate-700 dark:text-slate-300">
+        {paragraph}
+      </p>
+    ))}
+
     {resume.summaryBullets.length > 0 && (
-      <ul class="space-y-3">
+      <ul class="mt-6 space-y-3">
+        <!-- Espaçamento extra antes da lista quando ha paragrafos adicionais -->
         {resume.summaryBullets.map(({ label, text }) => (
           <li class="flex gap-3">
             <span class="mt-0.5 shrink-0 text-emerald-500 dark:text-emerald-400">

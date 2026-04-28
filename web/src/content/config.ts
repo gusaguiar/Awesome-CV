@@ -52,11 +52,13 @@ const honorItemSchema = z.object({
 });
 
 const committeeItemSchema = z.object({
-  id:       z.string(),
-  position: z.string(),
-  title:    z.string(),
-  location: z.string(),
-  date:     z.string(),
+  id:             z.string(),
+  position:       z.string(),
+  title:          z.string(),
+  location:       z.string(),
+  date:           z.string(),
+  // Texto integral da recomendacao, exibido como blockquote na pagina
+  recommendation: z.string().optional(),
 });
 
 const extracurricularItemSchema = z.object({
@@ -65,6 +67,8 @@ const extracurricularItemSchema = z.object({
   organization: z.string().optional(),
   period:       z.string().optional(),
   description:  z.string().optional(),
+  // Bullets granulares (substitui description quando presentes)
+  bullets:      z.array(z.string()).default([]),
 });
 
 const resumeSchema = z.object({
@@ -74,15 +78,19 @@ const resumeSchema = z.object({
     contact:   contactSchema,
     quote:     z.object({ text: z.string(), attribution: z.string() }).array().optional(),
   }),
-  summary:          z.string(),
-  summaryBullets:   z.array(z.object({ label: z.string(), text: z.string() })).default([]),
-  stack:            z.string().optional(),
-  experience:       z.array(experienceItemSchema).default([]),
-  education:        z.array(educationItemSchema).default([]),
-  certificates:     z.array(certificateItemSchema).default([]),
-  honors:           z.array(honorItemSchema).default([]),
-  committees:       z.array(committeeItemSchema).default([]),
-  extracurricular:  z.array(extracurricularItemSchema).default([]),
+  summary:           z.string(),
+  // Paragrafos adicionais do resumo (exibidos apos o paragrafo principal)
+  summaryParagraphs: z.array(z.string()).default([]),
+  summaryBullets:    z.array(z.object({ label: z.string(), text: z.string() })).default([]),
+  stack:             z.string().optional(),
+  experience:        z.array(experienceItemSchema).default([]),
+  education:         z.array(educationItemSchema).default([]),
+  certificates:      z.array(certificateItemSchema).default([]),
+  // Paragrafo introdutorio sobre revisao por pares, exibido antes da tabela
+  honorsIntro:       z.string().optional(),
+  honors:            z.array(honorItemSchema).default([]),
+  committees:        z.array(committeeItemSchema).default([]),
+  extracurricular:   z.array(extracurricularItemSchema).default([]),
 });
 
 // ── Schema de artigos (wiki) ─────────────────────────────────────────────────

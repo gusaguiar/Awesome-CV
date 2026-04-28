@@ -14,6 +14,11 @@ const { resume, locale } = Astro.props;
 
 <Section title={t(locale, 'section.honors')} id="premios">
   <GlassCard>
+    {resume.honorsIntro && (
+      <p class="mb-5 text-sm leading-relaxed text-slate-600 dark:text-slate-400 italic border-l-2 border-emerald-500/50 pl-3">
+        {resume.honorsIntro}
+      </p>
+    )}
     <div class="overflow-x-auto">
       <table class="w-full text-sm">
         <thead>
