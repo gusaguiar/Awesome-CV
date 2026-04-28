@@ -6,12 +6,9 @@ import { render } from 'astro:content';
 import { t, type Locale } from '@/i18n/ui';
 import { readingTime } from '@/i18n/utils';
 
+// Section under construction: no dynamic pages are generated for now.
 export async function getStaticPaths() {
-  const articles = await getCollection('articles', (e) => e.data.locale === 'en-us' && !e.data.draft);
-  return articles.map((article) => ({
-    params: { slug: article.data.id },
-    props: { article },
-  }));
+  return [];
 }
 
 const locale: Locale = 'en-us';

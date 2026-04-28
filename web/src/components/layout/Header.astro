@@ -11,10 +11,9 @@ interface Props {
 
 const { locale, currentPath } = Astro.props;
 
+// Artigos e Projetos ocultados do menu enquanto a secao esta em construcao.
 const navLinks = [
   { href: localePath(locale, '/'), label: t(locale, 'nav.resume') },
-  { href: localePath(locale, locale === 'pt-br' ? '/artigos' : '/articles'), label: t(locale, 'nav.articles') },
-  { href: localePath(locale, locale === 'pt-br' ? '/projetos' : '/projects'), label: t(locale, 'nav.projects') },
 ];
 
 // Determina a rota ativa comparando com o pathname atual

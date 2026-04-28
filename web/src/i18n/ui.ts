@@ -52,6 +52,11 @@ export const ui = {
     'projects.featured':    'Destaque',
     'projects.empty':       'Nenhum projeto publicado ainda.',
 
+    // Paginas em construcao
+    'construction.title':       'Em construção',
+    'construction.description': 'Esta seção está sendo preparada com cuidado e estará disponível em breve.',
+    'construction.cta':         'Voltar ao currículo',
+
     // Geral
     'meta.author': 'Gustavo Aguiar',
     'footer.rights': 'Todos os direitos reservados.',
@@ -103,6 +108,11 @@ export const ui = {
     'projects.period':      'Period',
     'projects.featured':    'Featured',
     'projects.empty':       'No projects published yet.',
+
+    // Under construction pages
+    'construction.title':       'Under construction',
+    'construction.description': 'This section is being carefully prepared and will be available soon.',
+    'construction.cta':         'Back to resume',
 
     // General
     'meta.author': 'Gustavo Aguiar',
