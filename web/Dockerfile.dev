@@ -1,0 +1,23 @@
+# syntax=docker/dockerfile:1.7
+#
+# Imagem de desenvolvimento com hot module replacement (HMR).
+#
+# Diferente da imagem de producao, aqui o Node permanece em runtime e o
+# codigo-fonte e montado via volume pelo docker-compose, permitindo edicao
+# em tempo real com recarregamento automatico.
+
+FROM node:20-alpine
+
+WORKDIR /app
+
+# Instala dependencias antes de montar o volume.
+# Sem esta etapa, o volume sobrescreveria /app e perderiamos node_modules.
+COPY package.json package-lock.json ./
+RUN npm ci
+
+# Porta default do servidor Astro dev
+EXPOSE 4321
+
+# --host 0.0.0.0 e obrigatorio para que o servidor seja acessivel
+# fora do container (docker mapeia para localhost do host).
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]

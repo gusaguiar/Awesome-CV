@@ -1,0 +1,34 @@
+# Dependencias instaladas localmente - serao reinstaladas dentro do container
+node_modules
+
+# Artefatos de build - regenerados durante a imagem
+dist
+.astro
+
+# Controle de versao e configuracoes do editor
+.git
+.gitignore
+.vscode
+.idea
+
+# Arquivos de log e temporarios
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Variaveis de ambiente locais (devem ser passadas via runtime)
+.env
+.env.local
+.env.*.local
+
+# Documentacao e arquivos auxiliares que nao impactam o build
+README.md
+*.md.bak
+
+# Configuracoes Docker (evita recursao em builds)
+Dockerfile
+Dockerfile.dev
+docker-compose.yml
+docker-compose.*.yml
+.dockerignore

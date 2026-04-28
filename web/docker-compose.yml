@@ -1,0 +1,58 @@
+# Docker Compose para o site pessoal (Astro).
+#
+# Dois servicos com perfis distintos:
+#   - "dev"  -> Dockerfile.dev com HMR e codigo via volume (porta 4321)
+#   - "prod" -> Dockerfile multi-stage servido por Nginx   (porta 8080)
+#
+# Uso (a partir desta pasta `web/`):
+#   docker compose --profile dev  up --build
+#   docker compose --profile prod up --build -d
+#   docker compose down
+
+services:
+  # -------------------------------------------------------------------------
+  # Servico de desenvolvimento com hot reload
+  # -------------------------------------------------------------------------
+  web-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    image: gustavo-site:dev
+    container_name: gustavo-site-dev
+    profiles: ["dev"]
+    ports:
+      # Astro dev server
+      - "4321:4321"
+    volumes:
+      # Codigo-fonte montado para refletir mudancas em tempo real
+      - .:/app
+      # Volume anonimo isolando node_modules do container
+      # (evita conflito com node_modules do host, especialmente em Windows)
+      - /app/node_modules
+    environment:
+      # Habilita polling para que o HMR funcione corretamente em
+      # filesystems montados (WSL2, Docker Desktop, OneDrive, etc.)
+      - CHOKIDAR_USEPOLLING=true
+      - WATCHPACK_POLLING=true
+      - NODE_ENV=development
+
+  # -------------------------------------------------------------------------
+  # Servico de producao (build estatico + Nginx)
+  # -------------------------------------------------------------------------
+  web-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: gustavo-site:latest
+    container_name: gustavo-site
+    profiles: ["prod"]
+    ports:
+      # Mapeia porta 80 do container para 8080 do host
+      - "8080:80"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost/"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s

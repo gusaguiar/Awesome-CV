@@ -37,6 +37,38 @@ npm run build      # Build de produção em web/dist/
 npm run preview    # Preview do build de produção
 ```
 
+## Execução com Docker
+
+A pasta `web/` contém uma stack Docker pronta com dois modos de execução através de [profiles do Compose](https://docs.docker.com/compose/profiles/):
+
+- **dev** — Node + Astro com hot reload (porta `4321`)
+- **prod** — build estático servido por Nginx (porta `8080` do host → `80` do container)
+
+Em Windows é recomendado executar via **WSL** para melhor performance de I/O e compatibilidade do HMR.
+
+```bash
+cd web
+
+# Desenvolvimento com hot reload
+docker compose --profile dev up --build
+# Acesse http://localhost:4321
+
+# Produção (build estático otimizado servido por Nginx)
+docker compose --profile prod up --build -d
+# Acesse http://localhost:8080
+
+# Encerrar e remover containers
+docker compose down
+```
+
+Arquivos relevantes:
+
+- `Dockerfile` — imagem de produção multi-stage (Node 20 → Nginx alpine)
+- `Dockerfile.dev` — imagem de desenvolvimento com `astro dev`
+- `nginx.conf` — configuração com gzip e cache de assets versionados
+- `docker-compose.yml` — orquestração dos perfis dev/prod
+- `.dockerignore` — reduz o contexto de build
+
 ## Como adicionar um artigo
 
 1. Crie um arquivo `.md` em `src/content/articles/pt-br/` (ou `en-us/`):
