@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+/*
+  Ativa o dark mode baseado em classe (.dark no <html>) para o Tailwind v4.
+  Por padrão o v4 usa prefers-color-scheme; esta diretiva faz as utilitárias
+  dark:* responderem à classe adicionada/removida pelo ThemeToggle.
+*/
+@custom-variant dark (&:where(.dark, .dark *));
+
 /* ── Design tokens ── */
 @theme {
   --color-emerald-400: #34d399;
