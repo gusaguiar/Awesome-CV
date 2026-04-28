@@ -24,6 +24,9 @@
     ]
   },
   "summary": "Senior Data Scientist & ML Engineer focused on transforming data into products that have real impacts, especially in business process agility gains. I work from planning and designing solutions for projects to developing products in data science and machine learning engineering, as well as mentoring professionals in this area.",
+  "summaryParagraphs": [
+    "I am a solution developer with a very business process-oriented perspective, always seeking to understand what the client needs and how it's possible to help."
+  ],
   "summaryBullets": [
     {
       "label": "Ambev Tech",
@@ -53,7 +56,7 @@
       "title": "Senior Data Scientist (Specialist)",
       "organization": "Vert Analytics",
       "location": "Brasilia, DF, Brazil",
-      "period": "Jan. 2025 - Present",
+      "period": "Jan. 2026 - Present",
       "bullets": [
         "Data and AI solutions architect for multiple contracts with the State of Espirito Santo, leading end-to-end design of analytical and ML initiatives in production",
         "Lakehouse and ML architecture using Cloudera Data Platform, PySpark and Airflow, ensuring reliable pipelines across Bronze/Silver/Gold layers",
@@ -63,7 +66,7 @@
     },
     {
       "id": "ambev-ai-2025",
-      "title": "Artificial Intelligence Consultant",
+      "title": "Artificial Intelligence Engineer",
       "organization": "Ambev Tech",
       "location": "São Paulo, Brazil",
       "period": "Aug. 2025 - Jan. 2026",
@@ -83,16 +86,17 @@
       "title": "Senior Data Scientist",
       "organization": "Vert Analytics",
       "location": "Brasilia, DF, Brazil",
-      "period": "Jul. 2022 - Dec. 2024",
+      "period": "Jul. 2022 - Aug. 2025",
       "bullets": [
         "GovTech Solutions Architect for multiple projects: SEGER, SESA, SEDU, SEJUS, SESP, SECONT, Civil Police (ES), SEPOL and DETRAN (RJ)",
         "Architecture of complete Data Lakehouses using Cloudera Data Platform (HDFS/Impala/Ranger/Kerberos) + PySpark + Airflow with automated ETL pipelines across all layers (Bronze, Silver, Gold) and deployments on Kubernetes (Rancher and OpenShift)",
         "Implementation of AI models for anomaly detection in public prices, automatic document classification, entity extraction via NER and demand forecasting",
-        "Development of investigation and network analysis tool for detecting fraud indicators in fleet vehicle supply and maintenance",
-        "Projection models for water and energy consumption for state agencies",
-        "AI agent with RAG for the procurement division of the State Administration Secretariat",
-        "AI agent with RAG for the legal advisory of the State Administration Secretariat, supporting the writing of technical opinions",
-        "AI agent for querying structured data in the State Health Secretariat Data Lake",
+        "Built a network investigation and analysis tool to identify fraud indicators in fleet fueling and maintenance operations for the state",
+        "Developed water and energy consumption forecasting models for state agencies",
+        "Delivered a RAG-based AI agent for the State Administration Secretariat procurement area, guiding procedures for agreements and available services",
+        "Delivered a RAG-based AI agent for the State Administration Secretariat legal advisory unit to support drafting technical opinions",
+        "Built an AI agent for querying structured data curated in the State Health Secretariat Data Lake",
+        "Implemented a PDF-to-string processing module using Fitz and TesseractOCR",
         "Design and development of integrated legal Data Mart in SAS Viya with analytical dashboards for the Eletrobras Group (Furnas, Chesf, Eletrosul, Eletronorte, Eletrobras Holding)",
         "Building predictive models for projecting legal process volume, unfavorable outcome probability, closure detection via NLP and content-based textual classification",
         "Implementation of hybrid SAS Compute + PySpark architecture for distributed processing of large document volumes",
@@ -110,7 +114,8 @@
         "Development of Digital Twin for Petrobras' Intelligent Completion System using Python, PySpark, Airflow, MongoDB and Docker",
         "Integration of Open Source technologies with Matlab/Simulink to build a high-fidelity virtual physical model",
         "Project managed by Petrobras (Cenpes) under coordination of D.Sc. Eng. Danilo Colombo, applying industrial sensor monitoring concepts",
-        "Implementation of hybrid architecture combining traditional engineering tools with modern data and ML technologies"
+        "Implementation of hybrid architecture combining traditional engineering tools with modern data and ML technologies",
+        "Project concluded during development due to the completion of my master's degree."
       ]
     },
     {
@@ -123,7 +128,8 @@
         "Development of crawlers for automated collection of official gazettes (municipalities and state) for the Court of Accounts",
         "Implementation of NLP models with NER for entity extraction in bidding notices and contract extracts",
         "Data structuring in PostgreSQL and feeding SAS Visual Investigator (ElasticSearch + CAS) as an investigative platform for auditors",
-        "Implementation of alert rules for detecting fraud indicators in bidding processes"
+        "Implementation of alert rules for detecting fraud indicators in bidding processes",
+        "Building dashboards for clear data visualization and decision support during audits"
       ]
     },
     {
@@ -133,10 +139,11 @@
       "location": "Rio de Janeiro, Brazil",
       "period": "Dec. 2020 - Mar. 2023",
       "bullets": [
-        "Development of high-fidelity Digital Twin simulator for Blowout Preventer equipment using Matlab/Simulink with specialized toolboxes",
+        "Development of high-fidelity Digital Twin simulator for Blowout Preventer equipment using Matlab/Simulink with specialized toolboxes (Curve Fitting, Optimization, Simscape)",
         "Construction of the 'BOP Data Universe' BI environment integrating multiple data sources from partner companies Petrobras, Constellation and Transocean",
         "Implementation of text mining in failure records via NLTK/Scikit-Learn for analysis of maintenance patterns and failure modes",
-        "Creation of preventive alert system based on CBM (Condition-Based Maintenance) with clustering for IoT/sensor analysis"
+        "Creation of preventive alert system based on CBM (Condition-Based Maintenance) with clustering for IoT/sensor analysis — module integrated into Intelie Live (RTO Live)",
+        "Development of intelligence reports on expected behavior (from simulations using the validated Digital Twin) in various failure types, using Power BI, Matlab/Simulink, Python and Big Data"
       ]
     },
     {
@@ -146,10 +153,10 @@
       "location": "Rio de Janeiro, Brazil",
       "period": "Sep. 2018 - Dec. 2020",
       "bullets": [
-        "Text mining in Blowout Preventer equipment failure records using NLTK and Scikit-Learn",
-        "Exploratory data analysis with Python, Excel, Jupyter Notebook and Power BI for failure pattern identification",
+        "Text mining in Blowout Preventer equipment failure records using NLTK and Scikit-Learn to improve understanding of maintenance activities",
+        "Exploratory data analysis (EDA) with Python, Excel, Jupyter Notebook and Power BI for identifying failure patterns in Gulf of Mexico vs Brazil vs North Sea",
         "Processing and cleaning of operational failure data for building a knowledge base on critical equipment",
-        "Development of survival statistical analysis for the service life of Blowout Preventer components"
+        "Development of survival analysis for useful life (in time or operation cycles) of various Blowout Preventer components"
       ]
     },
     {
@@ -160,9 +167,10 @@
       "period": "Jan. 2019 - Jun. 2020",
       "bullets": [
         "Collection and processing of interview data with ANTT directors and major stakeholder representatives using Python",
-        "Conducting structured interviews with superintendents and managers for decision-making flow and organizational responsibility mapping",
+        "Conducting structured interviews with superintendents and managers to map decision-making flows and organizational responsibilities",
         "Treatment and organization of qualitative and quantitative data for building the new ANTT 2020-2030 strategic plan",
-        "Development of intelligence dashboards for strategic indicator and goal monitoring using Power BI, Python, SQL and Excel"
+        "Development of intelligence dashboards for monitoring strategic indicators and agency goals using Power BI, Python, SQL and Excel",
+        "Building KPIs and visuals for monitoring strategic projects, facilitating data-driven decision making with batch updates via built data engineering pipelines"
       ]
     },
     {
@@ -187,9 +195,9 @@
       "period": "Jun. 2025 - Dec. 2026",
       "bullets": [
         "Applied training in Data Science & Analytics with three integrated tracks: ML Engineering, Data Science and Data Engineering",
-        "End-to-end pipelines with MLOps, versioning, CI/CD, Docker, Kubernetes, REST APIs and microservices",
+        "End-to-end pipelines with MLOps, versioning, CI/CD, Docker, Kubernetes, REST APIs and microservices in AWS/GCP/Azure",
         "Advanced EDA with pandas/NumPy, inferential statistics, regression, classification, clustering, NLP, time series",
-        "Data Lakehouse and DW architectures, distributed processing with Spark and Hadoop"
+        "Data Lakehouse and DW architectures, distributed processing with Spark, Hadoop and Kafka"
       ]
     },
     {
@@ -208,9 +216,10 @@
       "period": "Sep. 2021 - Jan. 2022",
       "bullets": [
         "Supervised ML: regression/classification algorithms, decision trees, random forests, neural networks with scikit-learn",
-        "Software Engineering: OOP Python, unit testing, virtual environments, Python packaging, linting, GitHub Actions",
+        "Software Engineering: OOP Python, unit testing, virtual environments, Python packaging, linting, GitHub actions",
         "Data Science Pipelines: PyTorch, CNNs, NLP with tokenization/stemming/lemmatization, OpenCV for computer vision",
-        "Unsupervised ML: K-means clustering, PCA, recommendation systems, matrix factorization, hierarchical clustering"
+        "Unsupervised ML: K-means clustering, PCA, recommendation systems, matrix factorization, hierarchical clustering",
+        "Projects: text classification model development with web dashboard, ML pipeline with text/numeric data, recommendation system"
       ]
     },
     {
@@ -220,11 +229,15 @@
       "location": "California, United States",
       "period": "Oct. 2022 - Feb. 2023",
       "bullets": [
-        "Data analysis and feature engineering with Data Wrangler and Pandas in SageMaker Studio",
-        "Design, training, evaluation and hyperparameter tuning of regression and classification models",
-        "Deployment of models as endpoints for real-time data inference",
-        "Fine-tuning of pre-trained models (ResNet, MXNet and BERT)",
-        "Use of AWS services: SageMaker, S3, IAM, Lambda, Step Functions, EC2, CloudWatch, Model Monitor and Feature Store"
+        "Data analysis and feature engineering using Data Wrangler and Pandas in SageMaker Studio",
+        "Model design, training, evaluation, and hyperparameter tuning for regression and classification (supervised learning)",
+        "Training, testing, and optimizing models as linear, tree-based, XGBoost, and AutoGluon Tabular prediction models",
+        "Deploying models as endpoints for inference on live data",
+        "Evaluating datasets with batch transform jobs and performing custom processing jobs on raw data",
+        "Building and training neural networks on image and text classification tasks; fine-tuning pretrained models (ResNet, MXNet, and BERT)",
+        "Debugging and profiling training jobs using SageMaker Debugger and packaging models in Dockerfiles for deployment",
+        "Utilizing AWS services like Lambda, Step Functions, Model Monitor, and Feature Store to create end-to-end ML pipelines",
+        "Technologies: SageMaker, S3, IAM, Lambda, Step Functions, EC2, CloudWatch"
       ]
     },
     {
@@ -237,22 +250,55 @@
     }
   ],
   "certificates": [
-    { "id": "enap-cloud-2025",   "title": "Administration of Government Cloud Services",              "issuer": "ENAP",    "date": "Jun 2025" },
-    { "id": "enap-datadri-2025", "title": "Data-Driven Government: Data-Oriented Transformation",    "issuer": "ENAP",    "date": "Jun 2025" },
-    { "id": "sas-modelops-2025", "title": "ModelOps: Governing AI and Machine Learning Models",        "issuer": "SAS",     "date": "Jun 2025" },
-    { "id": "enap-digital-2025", "title": "Digital Transformation in Public Service",                  "issuer": "ENAP",    "date": "Jun 2025" },
-    { "id": "sas-prog3-2024",    "title": "SAS Programming 3: Advanced Techniques",                   "issuer": "SAS",     "date": "Jul 2024" },
-    { "id": "sas-prog2-2024",    "title": "SAS Programming 2: Data Manipulation Techniques",          "issuer": "SAS",     "date": "Jul 2024" },
-    { "id": "sas-viya-2024",     "title": "SAS Viya Platform Administration",                          "issuer": "SAS",     "date": "Jul 2024" },
-    { "id": "microsoft-fabric",  "title": "Microsoft Fabric Analytics Engineer Associate (DP-600)",   "issuer": "Microsoft", "date": "Apr 2024" },
-    { "id": "aws-mle-2023",      "title": "Machine Learning Engineer Nanodegree - AWS",                "issuer": "Udacity", "date": "Feb 2023" },
-    { "id": "azureai-2022",      "title": "Microsoft Azure AI Fundamentals (AI-900)",                  "issuer": "Microsoft", "date": "Dec 2022" },
-    { "id": "gcp-mle-2022",      "title": "Machine Learning Engineer Learning Path",                   "issuer": "Google Cloud", "date": "Nov 2022" },
-    { "id": "gcp-de-2022",       "title": "Data Engineer Learning Path",                               "issuer": "Google Cloud", "date": "Oct 2022" },
-    { "id": "ds-udacity-cert",   "title": "Data Science Nanodegree",                                   "issuer": "Udacity", "date": "Jan 2022" },
-    { "id": "azuredp-2021",      "title": "Microsoft Azure Data Fundamentals (DP-900)",                "issuer": "Microsoft", "date": "Dec 2021" },
-    { "id": "azurefund-2021",    "title": "Microsoft Azure Fundamentals (AZ-900)",                     "issuer": "Microsoft", "date": "Nov 2021" }
+    { "id": "enap-cloud-2025",    "title": "Administration of Government Cloud Services",                              "issuer": "ENAP",          "date": "Jun 2025" },
+    { "id": "enap-datadri-2025",  "title": "Data-Driven Government: Data-Oriented Transformation in Governments",    "issuer": "ENAP",          "date": "Jun 2025" },
+    { "id": "sas-modelops-2025",  "title": "ModelOps: Governing AI and Machine Learning Models",                      "issuer": "SAS",           "date": "Jun 2025" },
+    { "id": "enap-digital-2025",  "title": "Digital Transformation in Public Service",                                "issuer": "ENAP",          "date": "Jun 2025" },
+    { "id": "enap-ux-2025",       "title": "UX: How to Improve User Experience in Digital Public Service",            "issuer": "ENAP",          "date": "Jun 2025" },
+    { "id": "sas-prog3-2024",     "title": "SAS Programming 3: Advanced Techniques",                                 "issuer": "SAS",           "date": "Jul 2024" },
+    { "id": "sas-viya-ops-2024",  "title": "SAS Viya Operations",                                                    "issuer": "SAS",           "date": "Jul 2024" },
+    { "id": "sas-viya-prep-2024", "title": "Self-Service Data Preparation in SAS Viya",                              "issuer": "SAS",           "date": "Jul 2024" },
+    { "id": "sas-macro-2024",     "title": "SAS Macro Language 1: Essentials",                                        "issuer": "SAS",           "date": "Jun 2024" },
+    { "id": "sas-prog1-2024",     "title": "SAS Programming 1: Essentials",                                           "issuer": "SAS",           "date": "Jun 2024" },
+    { "id": "sas-prog2-2024",     "title": "SAS Programming 2: Data Manipulation Techniques",                        "issuer": "SAS",           "date": "Jun 2024" },
+    { "id": "sas-viya-py-2024",   "title": "SAS Viya and Python Integration Fundamentals",                            "issuer": "SAS",           "date": "Jun 2024" },
+    { "id": "g4-estrategia-2024", "title": "Strategic Planning Certificate",                                          "issuer": "G4 Educação",   "date": "Mar 2024" },
+    { "id": "elsevier-peer-2023", "title": "Certified Peer Reviewer",                                                 "issuer": "Elsevier",      "date": "Jun 2023" },
+    { "id": "sas-manage-2023",    "title": "Managing Models in SAS Viya",                                             "issuer": "SAS",           "date": "May 2023" },
+    { "id": "sas-studio-2023",    "title": "Building SAS Studio Flows in SAS Viya",                                   "issuer": "SAS",           "date": "May 2023" },
+    { "id": "sas-eff-2023",       "title": "Efficiency Tips for Database Programming in SAS",                         "issuer": "SAS",           "date": "May 2023" },
+    { "id": "sas-casl-2023",      "title": "High-Performance Data Processing with CASL in SAS Viya",                 "issuer": "SAS",           "date": "May 2023" },
+    { "id": "sas-gov-2023",       "title": "SAS Data Governance Essentials",                                          "issuer": "SAS",           "date": "May 2023" },
+    { "id": "sas-va1-2023",       "title": "SAS Visual Analytics 1 for SAS Viya: Basics",                            "issuer": "SAS",           "date": "May 2023" },
+    { "id": "sas-va2-2023",       "title": "SAS Visual Analytics 2 for SAS Viya: Advanced",                          "issuer": "SAS",           "date": "May 2023" },
+    { "id": "sas-vi1-2023",       "title": "SAS Visual Investigator: Analysis and Investigation",                     "issuer": "SAS",           "date": "May 2023" },
+    { "id": "sas-vi2-2023",       "title": "SAS Visual Investigator: Building an Interface",                          "issuer": "SAS",           "date": "May 2023" },
+    { "id": "sas-oss-2023",       "title": "Using SAS to Put Open Source Models into Production",                     "issuer": "SAS",           "date": "May 2023" },
+    { "id": "aws-mle-2023",       "title": "Machine Learning Engineer Nanodegree - AWS",                              "issuer": "Udacity",       "date": "Feb 2023" },
+    { "id": "sas-ml-2022",        "title": "Machine Learning Using SAS Viya",                                         "issuer": "SAS",           "date": "Sep 2022" },
+    { "id": "sas-ov-2022",        "title": "SAS Viya Overview",                                                       "issuer": "SAS",           "date": "Sep 2022" },
+    { "id": "sas-prog35-2022",    "title": "Programming for SAS Viya (3.5)",                                          "issuer": "SAS",           "date": "Aug 2022" },
+    { "id": "sas-vdmml-2022",     "title": "SAS Visual Data Mining and Machine Learning on SAS Viya",                "issuer": "SAS",           "date": "Aug 2022" },
+    { "id": "sas-jobs-2022",      "title": "Working with SAS Viya Jobs",                                              "issuer": "SAS",           "date": "Aug 2022" },
+    { "id": "sas-vta-2022",       "title": "SAS Visual Text Analytics in SAS Viya",                                   "issuer": "SAS",           "date": "Mar 2022" },
+    { "id": "ds-udacity-cert",    "title": "Data Science Nanodegree",                                                 "issuer": "Udacity",       "date": "Jan 2022" },
+    { "id": "alura-ml-2021",      "title": "Machine Learning: Classification with Scikit-Learn",                      "issuer": "Alura",         "date": "Sep 2021" },
+    { "id": "alura-pyds-2021",    "title": "Python for Data Science: Functions, Packages and Basic Pandas",           "issuer": "Alura",         "date": "Sep 2021" },
+    { "id": "alura-sqla-2021",    "title": "SQL Server: Advanced Queries with Microsoft SQL Server 2017",             "issuer": "Alura",         "date": "Sep 2021" },
+    { "id": "alura-sqli-2021",    "title": "SQL Server: Introduction to SQL with Microsoft SQL Server 2017",          "issuer": "Alura",         "date": "Sep 2021" },
+    { "id": "alura-sqlm-2021",    "title": "SQL Server: Data Manipulation with Microsoft SQL Server 2017",            "issuer": "Alura",         "date": "Sep 2021" },
+    { "id": "alura-dax-2021",     "title": "DAX and ETL with Power BI: Loading Data",                                 "issuer": "Alura",         "date": "Jan 2021" },
+    { "id": "alura-pbi-2021",     "title": "Dashboard with Power BI: Building Reports",                               "issuer": "Alura",         "date": "Jan 2021" },
+    { "id": "alura-ts-2021",      "title": "Data Analysis: Time Series and Analytics",                                "issuer": "Alura",         "date": "Jan 2021" },
+    { "id": "alura-fpbi-2021",    "title": "Power BI Training",                                                       "issuer": "Alura",         "date": "Jan 2021" },
+    { "id": "alura-pbid-2021",    "title": "Power BI Desktop: Load, Analyze and Visualize Data",                      "issuer": "Alura",         "date": "Jan 2021" },
+    { "id": "alura-skl-2021",     "title": "Python Scikit-Learn: Regression, Classification and Clustering",          "issuer": "Alura",         "date": "Jan 2021" },
+    { "id": "alura-pynp-2021",    "title": "Python for Data Science: Language and Numpy",                             "issuer": "Alura",         "date": "Jan 2021" },
+    { "id": "alura-pyds2-2021",   "title": "Python for Data Science",                                                 "issuer": "Alura",         "date": "Jan 2021" },
+    { "id": "bizagi-2019",        "title": "Process Modeling (BPM)",                                                   "issuer": "Bizagi",        "date": "Jan 2019" },
+    { "id": "frhf-2018",          "title": "Certificate of Achievement (With Honors)",                                "issuer": "Richard Hugh Fisk Foundation", "date": "Jul 2018" }
   ],
+  "honorsIntro": "Elsevier certified reviewer for scientific articles that apply Machine Learning and algorithms associated with Artificial Intelligence, in high-impact journals and A1 classification in the CAPES Qualis system.",
   "honors": [
     {
       "id": "laurea-uff-2023",
@@ -267,20 +313,6 @@
       "title": "Brazilian Olympiad in Informatics",
       "location": "Sao Paulo, Brazil",
       "date": "2011"
-    },
-    {
-      "id": "arquiteto-govtech-2025",
-      "position": "Solutions Architect - GovTech",
-      "title": "Vert Analytics",
-      "location": "Espirito Santo, Brazil",
-      "date": "2025"
-    },
-    {
-      "id": "mentor-ds-2024",
-      "position": "Technical Mentor in Data Science and ML",
-      "title": "Vert Analytics",
-      "location": "Espirito Santo, Brazil",
-      "date": "2024"
     },
     {
       "id": "reviewer-eaai",
@@ -307,40 +339,130 @@
   "committees": [
     {
       "id": "rec-fabio-2025",
-      "position": "Data Architect",
-      "title": "Fabio Ferreira - Vert Analytics",
+      "position": "Senior Data Engineer",
+      "title": "Fabio Ferreira - Ambev Tech",
       "location": "Brazil",
-      "date": "2025"
+      "date": "2025",
+      "recommendation": "Gustavo is one of the most brilliant professionals I have worked with. He is proactive under pressure, consistently seeks optimized solutions, applies high industry standards, and shows master-level command of his tech stack."
     },
     {
       "id": "rec-luciana-2025",
       "position": "Project Manager",
       "title": "Luciana Miranda - Vert Analytics",
       "location": "Brazil",
-      "date": "2025"
+      "date": "2025",
+      "recommendation": "Gustavo is a highly qualified and strategic professional, recognized for organization, commitment, and dedication. We worked on high-impact projects for Eletrobras and Espírito Santo state agencies, where he demonstrated strong analytical architecture expertise and leadership of multidisciplinary teams, consistently delivering innovative, high-quality results."
     },
     {
       "id": "rec-arthur-2025",
       "position": "Business Intelligence Specialist",
       "title": "Arthur Diego Pereira - Vert Analytics",
       "location": "Brazil",
-      "date": "2025"
+      "date": "2025",
+      "recommendation": "I worked with Gustavo on the State Transparency and Oversight Secretariat Data Catalog (SECONT), building a custom SAS Viya solution. He quickly mastered complex flows, communicated clearly, and consistently delivered well-thought-out solutions. I strongly recommend him for SAS-based analytics initiatives."
+    },
+    {
+      "id": "rec-matheus-2025",
+      "position": "Senior UX/UI Designer & Product Designer",
+      "title": "Matheus Cougo - Vert Analytics",
+      "location": "Brazil",
+      "date": "2025",
+      "recommendation": "Working on a project with Gustavo means having a partner who combines technical depth, architectural vision, and focus on real impact. In all the projects we worked on together, he was central to building the data backbone. We worked to enhance the \"SAS 360\" product, which is his creation — responsible for providing extremely useful and effective auditing to clients who use SAS Viya microservices. In the \"Data Lake Observability\" project, it was impressive to see how Gustavo integrated various sources into resilient pipelines. We also collaborated on \"CIGEPES-ES\", where he led the engineering behind sensitive payroll and benefits data with absolute mastery of integrations between SAS Viya and other platforms. Gustavo is one of those professionals who, in addition to delivering, shares. I highly recommend Gustavo because I know how much he contributes to elevating the technical and strategic level of any project."
+    },
+    {
+      "id": "rec-wyllton-2025",
+      "position": "Senior Data Engineer",
+      "title": "Wyllton Maciel - Vert Analytics",
+      "location": "Brazil",
+      "date": "2025",
+      "recommendation": "Working alongside Gustavo at Vert Analytics has been an amazing experience, both professionally and personally. Together, we built a robust data engineering ecosystem for several departments of the Government of Espírito Santo (SEDU, SESA, and SEGER). Gustavo showcased expertise with technologies like PySpark, Airflow, HDFS, and Impala, and SAS Viya leveraging the potential of the Cloudera Data Platform (CDP). Gustavo stood out for his collaborative approach, clear communication, and his constant willingness to help others."
+    },
+    {
+      "id": "rec-vanessa-2025",
+      "position": "Tech Recruiter",
+      "title": "Vanessa Silva - Vert Analytics",
+      "location": "Brazil",
+      "date": "2025",
+      "recommendation": "I had the pleasure of participating in Gustavo's selection process. He always helped me technically, whether with questions or selection processes. Attentive, polite, didactic, helpful. Being a reference for other collaborators within Vert. It was great working with a professional like you!"
+    },
+    {
+      "id": "rec-atilas-2024",
+      "position": "Data Analyst",
+      "title": "Atilas Rodrigues Lamberti - Vert Analytics",
+      "location": "Brazil",
+      "date": "2024",
+      "recommendation": "Gustavo is a highly competent and dedicated professional, always willing to help colleagues. On several occasions, he was fundamental to the success of my activities, whether sharing his technical knowledge clearly or helping solve complex problems with innovative approaches. Gustavo has an impressive mastery of data science, in addition to being proactive and collaborative."
+    },
+    {
+      "id": "rec-thiago-2024",
+      "position": "Machine Learning Engineer",
+      "title": "Thiago Warton Teixeira Monteiro - Vert Analytics",
+      "location": "Brazil",
+      "date": "2024",
+      "recommendation": "Working with Gustavo over these almost two years has been an extremely valuable experience. He has always shown himself to be an essential technical support, being available and willing to clarify any questions I had. The didactic way in which Gustavo shares his knowledge makes even the most complex concepts more accessible and applicable in everyday life."
+    },
+    {
+      "id": "rec-bernardo-2024",
+      "position": "Tech Lead",
+      "title": "Bernardo Guimarães - Vert Analytics",
+      "location": "Brazil",
+      "date": "2024",
+      "recommendation": "Gustavo is a very talented professional with whom I had the opportunity to work at Vert Analytics. During this period, I was able to witness his ability to develop innovative and strategic solutions in complex projects. In addition to his recognized technical competence, he stands out for his ease in transmitting advanced concepts in a comprehensible way for the team and the client."
+    },
+    {
+      "id": "rec-luiza-2023",
+      "position": "Computer Engineer",
+      "title": "Luíza Angelo Lovo - Vert Analytics",
+      "location": "Brazil",
+      "date": "2023",
+      "recommendation": "It is a privilege to recommend Gustavo as a highly competent professional in all areas in which he works. He is a natural leader, capable of guiding teams efficiently, providing support with all his knowledge and ensuring that all team members are aligned with project objectives. Additionally, he is a SAS specialist, mastering these essential tools for data analysis."
+    },
+    {
+      "id": "rec-jefferson-2023",
+      "position": "Business Intelligence & Analytics",
+      "title": "Jefferson Silveira - Vert Analytics",
+      "location": "Brazil",
+      "date": "2023",
+      "recommendation": "It is a privilege to work alongside Gustavo as a team colleague. As a data scientist, he stands out exceptionally in his area of expertise. Gustavo is undoubtedly a reference in our team and is seen by everyone as a natural leader. His technical competence is remarkable, and he constantly demonstrates his intelligence and ability to solve complex problems."
+    },
+    {
+      "id": "rec-giovanni-2023",
+      "position": "Data Scientist",
+      "title": "Giovanni Sencioles - Vert Analytics",
+      "location": "Brazil",
+      "date": "2023",
+      "recommendation": "Gustavo is not only a reference in the data science field, but also an excellent colleague. Always proposing new ideas to facilitate the workflow of other colleagues, helping them with very well-elaborated and explanatory documentation. Always very attentive to every detail, he was responsible for monitoring the health of project inputs."
+    },
+    {
+      "id": "rec-melotti-2023",
+      "position": "Senior Data Scientist",
+      "title": "Matheus Melotti - Vert Analytics",
+      "location": "Brazil",
+      "date": "2023",
+      "recommendation": "I had the pleasure of working with Gustavo, who served as Senior Data Scientist on our team during the Eletrobrás project, and it was an incredibly valuable experience. During this period, his expertise in artificial intelligence not only accelerated our projects but also transformed the way we approach business challenges. In addition to having the ability to communicate complex concepts in a comprehensible way for non-technical people."
     }
   ],
   "extracurricular": [
     {
       "id": "caep-uff-2018",
       "title": "Vice-Director",
-      "organization": "Industrial Engineering Academic Center - UFF",
+      "organization": "Production Engineering Academic Center - UFF",
       "period": "Mar. 2018 - Mar. 2019",
-      "description": "Led student initiatives, organized academic events including the 2nd Engineering Week and promoted science literacy for children through creative activities."
+      "bullets": [
+        "Led student initiatives focused on academic and professional development of students",
+        "Organized academic events including the II Engineering Week and Science under Tents project",
+        "Promoted scientific literacy for children through playful, creative, and interactive activities"
+      ]
     },
     {
       "id": "comissoes-uff-2018",
       "title": "Academic Committee Member",
       "organization": "Institute of Science and Technology - UFF",
       "period": "2018 - 2019",
-      "description": "Member of the Evaluation Committee for the VII Excellence in Teaching Award and the Electoral Committee for Institute Director and Vice-Director."
+      "bullets": [
+        "Member of the Evaluation Committee for nomination to the VII Teaching Excellence Award",
+        "Member of the Electoral Commission for Director and Vice-Director of the Institute of Science and Technology"
+      ]
     }
   ]
 }
